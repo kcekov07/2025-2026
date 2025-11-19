@@ -1,0 +1,12 @@
+﻿@model EcoLoop.Data.Models.Store
+
+<h2>@Model.Name</h2>
+
+<p>Категория: @Model.Category</p>
+<p>Адрес: @Model.Address</p>
+<p>@Model.Description</p>
+
+@if (Model.ImageUrl != null)
+{
+    <img src="@Model.ImageUrl" style="width:200px" />
+}

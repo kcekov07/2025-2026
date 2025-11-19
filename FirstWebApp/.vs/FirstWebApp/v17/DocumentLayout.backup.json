@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|c:\\users\\xii class\\source\\repos\\firstwebapp\\firstwebapp\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|solutionrelative:firstwebapp\\controllers\\articlecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|c:\\users\\xii class\\source\\repos\\firstwebapp\\firstwebapp\\models\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|solutionrelative:firstwebapp\\models\\studentviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|c:\\users\\xii class\\source\\repos\\firstwebapp\\firstwebapp\\views\\article\\student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|solutionrelative:firstwebapp\\views\\article\\student.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|c:\\users\\xii class\\source\\repos\\firstwebapp\\firstwebapp\\views\\article\\demo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|solutionrelative:firstwebapp\\views\\article\\demo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|c:\\users\\xii class\\source\\repos\\firstwebapp\\firstwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|solutionrelative:firstwebapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|c:\\users\\xii class\\source\\repos\\firstwebapp\\firstwebapp\\models\\dataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C2E2395D-CD3B-4878-BA0B-B60106A5A3AE}|FirstWebApp\\FirstWebApp.csproj|solutionrelative:firstwebapp\\models\\dataviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Student.cshtml",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Views\\Article\\Student.cshtml",
+              "RelativeDocumentMoniker": "FirstWebApp\\Views\\Article\\Student.cshtml",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Views\\Article\\Student.cshtml*",
+              "RelativeToolTip": "FirstWebApp\\Views\\Article\\Student.cshtml*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T06:47:32.023Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StudentViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Models\\StudentViewModel.cs",
+              "RelativeDocumentMoniker": "FirstWebApp\\Models\\StudentViewModel.cs",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Models\\StudentViewModel.cs",
+              "RelativeToolTip": "FirstWebApp\\Models\\StudentViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-24T05:57:15.977Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Demo.cshtml",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Views\\Article\\Demo.cshtml",
+              "RelativeDocumentMoniker": "FirstWebApp\\Views\\Article\\Demo.cshtml",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Views\\Article\\Demo.cshtml",
+              "RelativeToolTip": "FirstWebApp\\Views\\Article\\Demo.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-24T05:49:30.443Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DataViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Models\\DataViewModel.cs",
+              "RelativeDocumentMoniker": "FirstWebApp\\Models\\DataViewModel.cs",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Models\\DataViewModel.cs",
+              "RelativeToolTip": "FirstWebApp\\Models\\DataViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T06:10:50.884Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ArticleController.cs",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Controllers\\ArticleController.cs",
+              "RelativeDocumentMoniker": "FirstWebApp\\Controllers\\ArticleController.cs",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Controllers\\ArticleController.cs*",
+              "RelativeToolTip": "FirstWebApp\\Controllers\\ArticleController.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwB0AAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-17T06:06:41.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "FirstWebApp\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\FirstWebApp\\FirstWebApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "FirstWebApp\\Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-10-15T08:40:34.942Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

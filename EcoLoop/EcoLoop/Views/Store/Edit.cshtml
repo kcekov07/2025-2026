@@ -1,0 +1,15 @@
+﻿@model EcoLoop.Models.StoreEditViewModel
+
+<h2>Редакция</h2>
+
+<form method="post">
+    <input asp-for="Id" type="hidden" />
+    <input asp-for="Name" />
+    <input asp-for="Category" />
+    <input asp-for="Address" />
+    <textarea asp-for="Description"></textarea>
+    <label><input type="checkbox" asp-for="AcceptsOwnPackaging" /> Приема собствени опаковки</label>
+    <input asp-for="ImageUrl" />
+
+    <button type="submit">Запази</button>
+</form>
