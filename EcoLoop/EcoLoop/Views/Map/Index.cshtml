@@ -1,0 +1,58 @@
+﻿@model EcoLoop.Models.MapPageViewModel
+@using System.Text.Json
+
+@{
+    ViewData["Title"] = "Карта";
+    var storesJson = JsonSerializer.Serialize(Model.Stores);
+}
+
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
+      crossorigin="" />
+
+<div class="container mt-4">
+    <h2 class="section-title mb-3">🗺️ К карта на еко магазините</h2>
+    <p class="mb-3 text-muted">Виж всички устойчиви обекти около теб.</p>
+
+    <div id="map" style="height: 500px; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 18px rgba(0,0,0,0.12);"></div>
+</div>
+
+@section Scripts {
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
+            crossorigin=""></script>
+
+    <script>
+        // Данните от C# към JS
+        const stores = @Html.Raw(storesJson);
+
+        // Сетни начална позиция (например София)
+        var map = L.map('map').setView([42.6977, 23.3219], 12);
+
+        // Tile layer от OpenStreetMap
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+            attribution: '&copy; OpenStreetMap contributors'
+        }).addTo(map);
+
+        // Добавяме маркерите
+        stores.forEach(s => {
+            var marker = L.marker([s.latitude, s.longitude]).addTo(map);
+
+            var popupHtml = `
+                <b>${s.name}</b><br/>
+                ${s.category ?? ""}<br/>
+                <a href="/Store/Details/${s.id}">Виж детайли</a>
+            `;
+
+            marker.bindPopup(popupHtml);
+        });
+
+        // Ако има магазини – зумираме по bounding box
+        if (stores.length > 0) {
+            var latLngs = stores.map(s => [s.latitude, s.longitude]);
+            var bounds = L.latLngBounds(latLngs);
+            map.fitBounds(bounds, { padding: [40, 40] });
+        }
+    </script>
+}

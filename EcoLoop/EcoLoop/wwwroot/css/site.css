@@ -1,0 +1,245 @@
+/* ============================ */
+/*       FOOTER WITH ICONS      */
+/* ============================ */
+
+footer .footer-links a {
+    color: var(--eco-text);
+    font-weight: 600;
+    font-size: 0.95rem;
+    transition: 0.25s ease;
+    display: inline-flex;
+    align-items: center;
+}
+
+    footer .footer-links a i {
+        font-size: 1.1rem;
+        color: var(--eco-green-dark);
+        transition: 0.25s ease;
+    }
+
+    footer .footer-links a:hover {
+        color: var(--eco-green-dark);
+    }
+
+        footer .footer-links a:hover i {
+            transform: translateY(-2px);
+        }
+
+/* ============================ */
+/*  REGISTER / LOGIN BUTTONS    */
+/* ============================ */
+
+.navbar .nav-link {
+    color: var(--eco-text) !important;
+}
+
+    .navbar .nav-link:hover {
+        color: var(--eco-green-dark) !important;
+    }
+
+.navbar .btn-success {
+    background-color: var(--eco-green);
+    border-color: var(--eco-green);
+    font-weight: 600;
+    color: white !important;
+}
+
+    .navbar .btn-success:hover {
+        background-color: var(--eco-green-dark);
+        border-color: var(--eco-green-dark);
+    }
+/* ============================ */
+/*       ECOLOOP THEME          */
+/* ============================ */
+
+:root {
+    --eco-green: #3CC47C; /* Fresh Green */
+    --eco-green-dark: #2A9E62; /* Deep Eco Green */
+    --eco-green-light: #CFFFE3; /* Mint */
+    --eco-bg: #F7FFF9; /* Light Eco Background */
+    --eco-text: #425847; /* Soft Eco Text */
+    --eco-gray: #EBF3EF; /* Light gray-green */
+}
+
+/* ============================ */
+/*          GLOBAL              */
+/* ============================ */
+
+body {
+    background-color: var(--eco-bg);
+    color: var(--eco-text);
+    font-family: "Segoe UI", sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* ============================ */
+/*          NAVBAR              */
+/* ============================ */
+
+.navbar-eco-light {
+    background: linear-gradient(90deg, #ffffff, var(--eco-green-light));
+    border-bottom: 2px solid var(--eco-green);
+}
+
+.navbar-brand img {
+    height: 32px;
+    width: auto;
+}
+
+.navbar-eco-light .nav-link {
+    color: var(--eco-text) !important;
+    font-weight: 600;
+    transition: 0.25s ease;
+}
+
+    .navbar-eco-light .nav-link:hover {
+        color: var(--eco-green-dark) !important;
+        transform: translateY(-1px);
+    }
+
+/* RIGHT MENU BUTTONS */
+.navbar-eco-light .btn-success {
+    background-color: var(--eco-green);
+    border-color: var(--eco-green);
+    font-weight: 600;
+}
+
+    .navbar-eco-light .btn-success:hover {
+        background-color: var(--eco-green-dark);
+    }
+
+/* ============================ */
+/*         NAV SEARCH           */
+/* ============================ */
+
+.nav-search-wrapper {
+    width: 250px;
+}
+
+.nav-search {
+    background: white;
+    border-radius: 999px;
+    border: 2px solid var(--eco-green);
+    transition: 0.25s ease;
+}
+
+    .nav-search input {
+        color: var(--eco-text);
+    }
+
+        .nav-search input::placeholder {
+            color: #8FA98B;
+        }
+
+    .nav-search:focus-within {
+        background: var(--eco-green-light);
+        transform: translateY(-1px);
+        border-color: var(--eco-green-dark);
+    }
+
+/* Autocomplete dropdown */
+#navbarSearchDropdown {
+    background-color: #ffffff;
+    border-radius: 8px;
+}
+
+/* ============================ */
+/*        HOME PAGE             */
+/* ============================ */
+
+/* Hero Title */
+.hero-title {
+    font-size: 2.8rem;
+    font-weight: 800;
+    color: var(--eco-green);
+}
+
+/* Section Titles */
+.section-title {
+    border-left: 6px solid var(--eco-green);
+    padding-left: 12px;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--eco-text);
+}
+
+/* ============================ */
+/*         STORE CARDS          */
+/* ============================ */
+
+.store-card {
+    border-radius: 14px;
+    overflow: hidden;
+    border: 1px solid var(--eco-gray);
+    transition: 0.2s ease;
+    background: #fff;
+}
+
+    .store-card img {
+        height: 180px;
+        object-fit: cover;
+    }
+
+    .store-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 8px 16px rgba(0,0,0,0.08);
+    }
+
+/* ============================ */
+/*          STAT BOXES          */
+/* ============================ */
+
+.stat-box {
+    padding: 20px;
+    background: white;
+    border-radius: 12px;
+    border: 1px solid var(--eco-gray);
+    transition: 0.25s ease;
+}
+
+    .stat-box:hover {
+        transform: translateY(-3px);
+        box-shadow: 0 6px 14px rgba(0,0,0,0.08);
+    }
+
+/* ============================ */
+/*        RESPONSIVE FIXES      */
+/* ============================ */
+
+@media (max-width: 768px) {
+    .nav-search-wrapper {
+        width: 100%;
+        margin-top: 8px;
+        margin-bottom: 8px;
+    }
+
+    .hero-title {
+        font-size: 2.2rem;
+    }
+}
+
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}

@@ -1,0 +1,183 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\bookfavourites\\bookfavourites\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|solutionrelative:bookfavourites\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\bookfavourites\\bookfavourites\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|solutionrelative:bookfavourites\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\bookfavourites\\bookfavourites\\models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|solutionrelative:bookfavourites\\models\\categoryviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\bookfavourites\\bookfavourites\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|solutionrelative:bookfavourites\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\bookfavourites\\bookfavourites\\views\\home\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|solutionrelative:bookfavourites\\views\\home\\category\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\bookfavourites\\bookfavourites\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|solutionrelative:bookfavourites\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\bookfavourites\\bookfavourites\\data\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|solutionrelative:bookfavourites\\data\\models\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\bookfavourites\\bookfavourites\\data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|solutionrelative:bookfavourites\\data\\models\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\bookfavourites\\bookfavourites\\data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|solutionrelative:bookfavourites\\data\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\bookfavourites\\bookfavourites\\data\\migrations\\20251125064027_intialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DB99A5C9-2AF2-4074-8ED5-04673E3F041D}|Bookfavourites\\Bookfavourites.csproj|solutionrelative:bookfavourites\\data\\migrations\\20251125064027_intialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Bookfavourites\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Bookfavourites\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T09:48:03.395Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "20251125064027_IntialCreate.cs",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Data\\Migrations\\20251125064027_IntialCreate.cs",
+              "RelativeDocumentMoniker": "Bookfavourites\\Data\\Migrations\\20251125064027_IntialCreate.cs",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Data\\Migrations\\20251125064027_IntialCreate.cs",
+              "RelativeToolTip": "Bookfavourites\\Data\\Migrations\\20251125064027_IntialCreate.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T06:40:27.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\appsettings.json",
+              "RelativeDocumentMoniker": "Bookfavourites\\appsettings.json",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\appsettings.json",
+              "RelativeToolTip": "Bookfavourites\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-11-25T06:36:34.443Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Views\\Home\\Category\\Add.cshtml",
+              "RelativeDocumentMoniker": "Bookfavourites\\Views\\Home\\Category\\Add.cshtml",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Views\\Home\\Category\\Add.cshtml",
+              "RelativeToolTip": "Bookfavourites\\Views\\Home\\Category\\Add.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-25T06:17:01.333Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CategoryViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Models\\CategoryViewModel.cs",
+              "RelativeDocumentMoniker": "Bookfavourites\\Models\\CategoryViewModel.cs",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Models\\CategoryViewModel.cs",
+              "RelativeToolTip": "Bookfavourites\\Models\\CategoryViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T06:15:33.673Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "CategoryController.cs",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Controllers\\CategoryController.cs",
+              "RelativeDocumentMoniker": "Bookfavourites\\Controllers\\CategoryController.cs",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Controllers\\CategoryController.cs",
+              "RelativeToolTip": "Bookfavourites\\Controllers\\CategoryController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T06:13:27.38Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Bookfavourites\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Bookfavourites\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T06:11:14.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Image.cs",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Data\\Models\\Image.cs",
+              "RelativeDocumentMoniker": "Bookfavourites\\Data\\Models\\Image.cs",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Data\\Models\\Image.cs",
+              "RelativeToolTip": "Bookfavourites\\Data\\Models\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T06:09:47.773Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Category.cs",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Data\\Models\\Category.cs",
+              "RelativeDocumentMoniker": "Bookfavourites\\Data\\Models\\Category.cs",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Data\\Models\\Category.cs",
+              "RelativeToolTip": "Bookfavourites\\Data\\Models\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T06:08:26.696Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Book.cs",
+              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Data\\Models\\Book.cs",
+              "RelativeDocumentMoniker": "Bookfavourites\\Data\\Models\\Book.cs",
+              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\Bookfavourites\\Bookfavourites\\Data\\Models\\Book.cs",
+              "RelativeToolTip": "Bookfavourites\\Data\\Models\\Book.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-25T06:03:37.415Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
