@@ -4,6 +4,7 @@ using EcoLoop.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EcoLoop.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251125182427_AddOpeningHoursToStore")]
+    partial class AddOpeningHoursToStore
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -114,15 +117,14 @@ namespace EcoLoop.Data.Migrations
                             AcceptsOwnPackaging = true,
                             Address = "София",
                             Category = "Еко храни",
-                            CreatedAt = new DateTime(2025, 11, 25, 18, 25, 9, 471, DateTimeKind.Utc).AddTicks(9459),
+                            CreatedAt = new DateTime(2025, 11, 25, 18, 24, 26, 896, DateTimeKind.Utc).AddTicks(8416),
                             Delivery = false,
                             Description = "Био магазин",
                             ImageUrl = "/images/sample/bio.jpg",
                             IsProducer = false,
                             Latitude = 42.697699999999998,
                             Longitude = 23.321899999999999,
-                            Name = "Bio Market",
-                            OpeningHours = "09:00-18:00"
+                            Name = "Bio Market"
                         },
                         new
                         {
@@ -130,15 +132,14 @@ namespace EcoLoop.Data.Migrations
                             AcceptsOwnPackaging = false,
                             Address = "Пловдив",
                             Category = "Натурална козметика",
-                            CreatedAt = new DateTime(2025, 11, 25, 18, 25, 9, 471, DateTimeKind.Utc).AddTicks(9469),
+                            CreatedAt = new DateTime(2025, 11, 25, 18, 24, 26, 896, DateTimeKind.Utc).AddTicks(8422),
                             Delivery = false,
                             Description = "Естествена козметика",
                             ImageUrl = "/images/sample/cosmetics.jpg",
                             IsProducer = false,
                             Latitude = 42.1479,
                             Longitude = 24.75,
-                            Name = "Green Cosmetics",
-                            OpeningHours = "09:00-19:00"
+                            Name = "Green Cosmetics"
                         });
                 });
 

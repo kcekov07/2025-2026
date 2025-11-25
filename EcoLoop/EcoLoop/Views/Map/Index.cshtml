@@ -1,58 +1,263 @@
 ﻿@model EcoLoop.Models.MapPageViewModel
 @using System.Text.Json
+@section Styles {
+    <link rel="stylesheet" href="~/css/map.css" />
+}
 
 @{
     ViewData["Title"] = "Карта";
     var storesJson = JsonSerializer.Serialize(Model.Stores);
 }
 
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-      integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-      crossorigin="" />
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 
 <div class="container mt-4">
-    <h2 class="section-title mb-3">🗺️ К карта на еко магазините</h2>
-    <p class="mb-3 text-muted">Виж всички устойчиви обекти около теб.</p>
 
-    <div id="map" style="height: 500px; border-radius: 14px; overflow: hidden; box-shadow: 0 8px 18px rgba(0,0,0,0.12);"></div>
+    <h2 class="section-title mb-3">🗺️ Карта на еко магазините</h2>
+
+    <!-- ФИЛТРИ -->
+    <div class="card p-3 mb-3 shadow-sm">
+        <form id="filterForm" class="row g-3">
+
+            <!-- Категория -->
+            <div class="col-md-3">
+                <label class="form-label fw-bold">Категория</label>
+                <select id="filterCategory" class="form-select">
+                    <option value="">Всички</option>
+                    <option value="Еко храни">🥕 Еко храни</option>
+                    <option value="Натурална козметика">🧴 Натурална козметика</option>
+                    <option value="Еко облекло">👕 Еко облекло</option>
+                    <option value="Еко автомобили">🚗 Еко автомобили</option>
+                    <option value="Еко продукти за дома">🧼 Еко продукти за дома</option>
+                </select>
+            </div>
+
+            <!-- Разстояние -->
+            <div class="col-md-2">
+                <label class="form-label fw-bold">Разстояние</label>
+                <select id="filterDistance" class="form-select">
+                    <option value="">Без лимит</option>
+                    <option value="1">1 км</option>
+                    <option value="3">3 км</option>
+                    <option value="5">5 км</option>
+                    <option value="10">10 км</option>
+                    <option value="20">20 км</option>
+                    <option value="50">50 км</option>
+                    <option value="100">100 км</option>
+                </select>
+            </div>
+
+            <!-- Приема опаковки -->
+            <div class="col-md-2">
+                <label class="form-label fw-bold">Опаковки</label>
+                <select id="filterPackaging" class="form-select">
+                    <option value="">Всички</option>
+                    <option value="true">Приема</option>
+                    <option value="false">Не приема</option>
+                </select>
+            </div>
+
+            <!-- Работи в момента -->
+            <div class="col-md-2">
+                <label class="form-label fw-bold">Работи сега</label>
+                <select id="filterOpenNow" class="form-select">
+                    <option value="">Всички</option>
+                    <option value="true">Работи</option>
+                    <option value="false">Затворено</option>
+                </select>
+            </div>
+
+            <!-- Рейтинг -->
+            <div class="col-md-2">
+                <label class="form-label fw-bold">Рейтинг</label>
+                <select id="filterRating" class="form-select">
+                    <option value="">Всички</option>
+                    <option value="4">★ 4+</option>
+                    <option value="3">★ 3+</option>
+                    <option value="2">★ 2+</option>
+                </select>
+            </div>
+
+        </form>
+    </div>
+
+    <!-- Бутон Магазини около мен -->
+    <div class="mb-3">
+        <button id="btnNearMe" class="btn btn-outline-success">
+            🧭 Магазини около мен
+        </button>
+    </div>
+
+    <!-- КАРТА -->
+    <div id="map" style="height: 520px; border-radius: 14px; overflow: hidden; box-shadow: 0 4px 18px rgba(0,0,0,0.12);"></div>
+
+    <!-- Бутон Добави Магазин -->
+    <div class="mt-3">
+        @if (User.Identity.IsAuthenticated && User.IsInRole("Producer"))
+        {
+            <a href="/Store/Add" class="btn btn-success">➕ Добави магазин</a>
+        }
+        else if (User.Identity.IsAuthenticated)
+        {
+            <span class="text-muted">Само продавачи могат да добавят магазини.</span>
+        }
+        else
+        {
+            <a href="/Identity/Account/Login" class="btn btn-outline-success">
+                Влез като продавач
+            </a>
+        }
+    </div>
+
 </div>
 
 @section Scripts {
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-            integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-            crossorigin=""></script>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 
     <script>
-        // Данните от C# към JS
         const stores = @Html.Raw(storesJson);
 
-        // Сетни начална позиция (например София)
-        var map = L.map('map').setView([42.6977, 23.3219], 12);
+        // Категорийни икони
+        const categoryIcons = {
+            "Еко храни": "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-green.png",
+            "Натурална козметика": "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-violet.png",
+            "Еко облекло": "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-orange.png",
+            "Еко автомобили": "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-red.png",
+            "Еко продукти за дома": "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-yellow.png",
+        };
 
-        // Tile layer от OpenStreetMap
-        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-            maxZoom: 19,
-            attribution: '&copy; OpenStreetMap contributors'
-        }).addTo(map);
-
-        // Добавяме маркерите
-        stores.forEach(s => {
-            var marker = L.marker([s.latitude, s.longitude]).addTo(map);
-
-            var popupHtml = `
-                <b>${s.name}</b><br/>
-                ${s.category ?? ""}<br/>
-                <a href="/Store/Details/${s.id}">Виж детайли</a>
-            `;
-
-            marker.bindPopup(popupHtml);
+        // Маркер за потребителя
+        const userIcon = L.icon({
+            iconUrl: "https://raw.githubusercontent.com/pointhi/leaflet-color-markers/master/img/marker-icon-2x-blue.png",
+            iconSize: [30, 48]
         });
 
-        // Ако има магазини – зумираме по bounding box
-        if (stores.length > 0) {
-            var latLngs = stores.map(s => [s.latitude, s.longitude]);
-            var bounds = L.latLngBounds(latLngs);
-            map.fitBounds(bounds, { padding: [40, 40] });
+        // Картата
+        var map = L.map('map').setView([42.6977, 23.3219], 12);
+
+        L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            maxZoom: 19,
+        }).addTo(map);
+
+        let markers = [];
+        let userLocation = null;
+        let userMarker = null;
+
+        // Haversine формула
+        function distanceKm(lat1, lon1, lat2, lon2) {
+            const R = 6371;
+            const dLat = (lat2 - lat1) * Math.PI / 180;
+            const dLon = (lon2 - lon1) * Math.PI / 180;
+
+            const a = Math.sin(dLat / 2) ** 2 +
+                Math.cos(lat1 * Math.PI / 180) * Math.cos(lat2 * Math.PI / 180) *
+                Math.sin(dLon / 2) ** 2;
+
+            return R * 2 * Math.atan2(Math.sqrt(a), Math.sqrt(1 - a));
         }
+
+        // Работи ли магазинът?
+        function isOpenNow(store) {
+
+            if (!store.OpeningHours) return true;
+
+            let [open, close] = store.OpeningHours.split("-");
+            let now = new Date();
+            let current = now.getHours() + now.getMinutes() / 60;
+
+            let openH = Number(open.split(":")[0]) + Number(open.split(":")[1]) / 60;
+            let closeH = Number(close.split(":")[0]) + Number(close.split(":")[1]) / 60;
+
+            return current >= openH && current <= closeH;
+        }
+
+        // Зареждане на маркери
+        function loadMarkers() {
+
+            markers.forEach(m => map.removeLayer(m));
+            markers = [];
+
+            const cat = document.getElementById("filterCategory").value;
+            const pack = document.getElementById("filterPackaging").value;
+            const rating = document.getElementById("filterRating").value;
+            const dist = document.getElementById("filterDistance").value;
+            const openNow = document.getElementById("filterOpenNow").value;
+
+            stores.forEach(s => {
+
+                let ok = true;
+
+                if (cat && s.Category !== cat) ok = false;
+                if (pack && String(s.AcceptsOwnPackaging) !== pack) ok = false;
+                if (rating && s.Rating < rating) ok = false;
+
+                if (dist && userLocation) {
+                    let d = distanceKm(userLocation.lat, userLocation.lng, s.Latitude, s.Longitude);
+                    if (d > dist) ok = false;
+                }
+
+                if (openNow) {
+                    let isOpen = isOpenNow(s);
+                    if (openNow === "true" && !isOpen) ok = false;
+                    if (openNow === "false" && isOpen) ok = false;
+                }
+
+                if (!ok) return;
+
+                const icon = L.icon({
+                    iconUrl: categoryIcons[s.Category] ?? categoryIcons["Еко храни"],
+                    iconSize: [30, 48]
+                });
+
+                var marker = L.marker([s.Latitude, s.Longitude], { icon }).addTo(map);
+
+                marker.bindPopup(`
+                        <b>${s.Name}</b><br/>
+                        ${s.Category}<br/>
+                        <a href="/Store/Details/${s.Id}">Виж детайли</a>
+                    `);
+
+                markers.push(marker);
+            });
+        }
+
+        loadMarkers();
+        document.getElementById("filterForm").addEventListener("change", loadMarkers);
+
+        // Магазини около мен – бутон
+        document.getElementById("btnNearMe").addEventListener("click", function () {
+
+            if (!navigator.geolocation) {
+                alert("Вашият браузър не поддържа GPS локация.");
+                return;
+            }
+
+            navigator.geolocation.getCurrentPosition(pos => {
+
+                userLocation = {
+                    lat: pos.coords.latitude,
+                    lng: pos.coords.longitude
+                };
+
+                map.setView([userLocation.lat, userLocation.lng], 14);
+
+                if (userMarker) {
+                    map.removeLayer(userMarker);
+                }
+
+                userMarker = L.marker([userLocation.lat, userLocation.lng], { icon: userIcon })
+                    .addTo(map)
+                    .bindPopup("📍 <b>Вие сте тук</b>");
+
+                document.getElementById("filterDistance").value = "5";
+                loadMarkers();
+
+            }, () => {
+                alert("Неуспешно получаване на GPS локация.");
+            });
+        });
+
     </script>
+
 }

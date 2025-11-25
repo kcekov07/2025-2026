@@ -26,7 +26,11 @@ namespace EcoLoop.Controllers
                     Name = s.Name,
                     Category = s.Category,
                     Latitude = s.Latitude,
-                    Longitude = s.Longitude
+                    Longitude = s.Longitude,
+                    AcceptsOwnPackaging = s.AcceptsOwnPackaging,
+                    Rating = s.Rating,
+                    OpeningHours = s.OpeningHours
+
                 })
                 .ToListAsync();
 

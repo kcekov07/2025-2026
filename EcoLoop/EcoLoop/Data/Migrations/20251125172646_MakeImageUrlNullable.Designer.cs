@@ -4,6 +4,7 @@ using EcoLoop.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EcoLoop.Data.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
+    [Migration("20251125172646_MakeImageUrlNullable")]
+    partial class MakeImageUrlNullable
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -100,9 +103,6 @@ namespace EcoLoop.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<string>("OpeningHours")
-                        .HasColumnType("nvarchar(max)");
-
                     b.HasKey("Id");
 
                     b.ToTable("Stores");
@@ -111,34 +111,32 @@ namespace EcoLoop.Data.Migrations
                         new
                         {
                             Id = 1,
-                            AcceptsOwnPackaging = true,
-                            Address = "София",
-                            Category = "Еко храни",
-                            CreatedAt = new DateTime(2025, 11, 25, 18, 25, 9, 471, DateTimeKind.Utc).AddTicks(9459),
+                            AcceptsOwnPackaging = false,
+                            Address = "София, Център",
+                            Category = "Био храни",
+                            CreatedAt = new DateTime(2025, 11, 25, 17, 26, 46, 521, DateTimeKind.Utc).AddTicks(4397),
                             Delivery = false,
-                            Description = "Био магазин",
-                            ImageUrl = "/images/sample/bio.jpg",
+                            Description = "Био магазин с екологични продукти.",
+                            ImageUrl = "/images/sample-store.jpg",
                             IsProducer = false,
                             Latitude = 42.697699999999998,
                             Longitude = 23.321899999999999,
-                            Name = "Bio Market",
-                            OpeningHours = "09:00-18:00"
+                            Name = "Bio Market"
                         },
                         new
                         {
                             Id = 2,
                             AcceptsOwnPackaging = false,
-                            Address = "Пловдив",
-                            Category = "Натурална козметика",
-                            CreatedAt = new DateTime(2025, 11, 25, 18, 25, 9, 471, DateTimeKind.Utc).AddTicks(9469),
+                            Address = "Пловдив, Център",
+                            Category = "Еко стоки",
+                            CreatedAt = new DateTime(2025, 11, 25, 17, 26, 46, 521, DateTimeKind.Utc).AddTicks(4405),
                             Delivery = false,
-                            Description = "Естествена козметика",
-                            ImageUrl = "/images/sample/cosmetics.jpg",
+                            Description = "Магазин за устойчиви продукти.",
+                            ImageUrl = "/images/sample-store2.jpg",
                             IsProducer = false,
                             Latitude = 42.1479,
                             Longitude = 24.75,
-                            Name = "Green Cosmetics",
-                            OpeningHours = "09:00-19:00"
+                            Name = "Green Shop"
                         });
                 });
 

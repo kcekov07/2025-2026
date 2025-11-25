@@ -1,3 +1,17 @@
+
+/* MAP FILTER CARD */
+.card {
+    border-radius: 14px;
+    border: 1px solid var(--eco-gray);
+}
+
+/* Dropdown select */
+.form-select {
+    border-radius: 10px;
+    border: 1px solid var(--eco-gray);
+    padding: 6px 10px;
+    background-color: #fff;
+}
 /* ============================ */
 /*       FOOTER WITH ICONS      */
 /* ============================ */

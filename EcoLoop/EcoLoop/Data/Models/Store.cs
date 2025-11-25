@@ -24,6 +24,8 @@ namespace EcoLoop.Data.Models
         public bool AcceptsOwnPackaging { get; set; }
         public bool Delivery { get; set; }
         public bool IsProducer { get; set; }
+        public string? OpeningHours { get; set; }  // пример: "09:00-18:00"
+
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
