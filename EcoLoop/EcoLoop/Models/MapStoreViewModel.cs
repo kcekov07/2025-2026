@@ -7,11 +7,16 @@
         public string Name { get; set; }
         public string Category { get; set; }
 
+        public string Description { get; set; }
+        public string Address { get; set; }
+
         public double Latitude { get; set; }
         public double Longitude { get; set; }
-        public string OpeningHours { get; set; }
 
+        public string ImageUrl { get; set; }
         public bool AcceptsOwnPackaging { get; set; }
+
         public double Rating { get; set; }
+        public string OpeningHours { get; set; }
     }
 }

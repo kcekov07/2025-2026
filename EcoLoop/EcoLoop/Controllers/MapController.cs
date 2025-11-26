@@ -25,12 +25,14 @@ namespace EcoLoop.Controllers
                     Id = s.Id,
                     Name = s.Name,
                     Category = s.Category,
+                    Description = s.Description,
+                    Address = s.Address,
                     Latitude = s.Latitude,
                     Longitude = s.Longitude,
+                    ImageUrl = s.ImageUrl,
                     AcceptsOwnPackaging = s.AcceptsOwnPackaging,
                     Rating = s.Rating,
                     OpeningHours = s.OpeningHours
-
                 })
                 .ToListAsync();
 
