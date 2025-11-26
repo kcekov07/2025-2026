@@ -1,0 +1,102 @@
+﻿@model EcoLoop.Data.ApplicationUser
+
+@{
+    ViewData["Title"] = "Моят профил";
+}
+
+<div class="container mt-4 profile-container">
+
+    <div class="profile-header">
+        <img src="@Model.ProfileImageUrl" class="profile-image" alt="Профилна снимка" />
+
+        <div>
+            <h2>@Model.UserName</h2>
+
+            <div class="profile-role">
+                @if (Model.UserRole == "Producer")
+                {
+                    <span class="badge bg-success">Продавач</span>
+                    <span class="badge bg-outline-success">Ниво: @Model.ProducerLevel</span>
+                }
+                else if (Model.UserRole == "Admin")
+                {
+                    <span class="badge bg-danger">Администратор</span>
+                }
+                else
+                {
+                    <span class="badge bg-primary">Потребител</span>
+                    <span class="badge bg-outline-success">Ниво: @Model.EcoLevel</span>
+                }
+            </div>
+
+            <div class="profile-email text-muted">
+                @Model.Email
+            </div>
+        </div>
+    </div>
+
+    <hr />
+
+    <h4>Статистики</h4>
+
+    <div class="stats-grid">
+
+        <div class="stat-box">
+            <div class="stat-number">@Model.StoresVisited</div>
+            <div class="stat-label">🌍 Посетени магазини</div>
+        </div>
+
+        <div class="stat-box">
+            <div class="stat-number">@Model.StoresAdded</div>
+            <div class="stat-label">♻️ Добавени обекти</div>
+        </div>
+
+        <div class="stat-box">
+            <div class="stat-number">@Model.PackagingSaved</div>
+            <div class="stat-label">💚 Спестени опаковки</div>
+        </div>
+
+        <div class="stat-box">
+            <div class="stat-number">@Model.EventsJoined</div>
+            <div class="stat-label">📅 Участия в събития</div>
+        </div>
+
+    </div>
+
+    <hr />
+
+    <h4>Активност</h4>
+
+    <div class="action-list mb-3">
+        @if (Model.UserRole == "Producer")
+        {
+            <a class="btn btn-success" href="/Store/Add">➕ Добави магазин</a>
+            <small class="text-muted ms-2">
+                (Магазинът ще бъде добавен след одобрение от администратор.)
+            </small>
+        }
+        else
+        {
+            <span class="text-muted">Само продавачи могат да добавят магазини.</span>
+        }
+
+        <a class="btn btn-outline-primary" href="/Review/Add">⭐ Остави ревю</a>
+        <a class="btn btn-outline-success" href="/Events">📅 Участвай в събитие</a>
+    </div>
+
+    <hr />
+
+    <h4>Настройки</h4>
+
+    <div class="action-list">
+        <a href="/Profile/Edit" class="btn btn-secondary">🔒 Поверителност</a>
+        <a href="/Notifications" class="btn btn-secondary">🔔 Известия</a>
+        <form method="post" action="/Identity/Account/Logout" class="d-inline">
+            <button type="submit" class="btn btn-danger">🚪 Изход</button>
+        </form>
+    </div>
+
+</div>
+
+
+

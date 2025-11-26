@@ -1,0 +1,56 @@
+﻿.profile-container {
+    max-width: 900px;
+}
+
+.profile-header {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.profile-image {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 3px solid #2E7D32;
+}
+
+.profile-role .badge {
+    margin-right: 5px;
+}
+
+.stats-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+}
+
+.stat-box {
+    background: #f4fff4;
+    border: 1px solid #d8efd8;
+    padding: 12px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.stat-number {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.stat-label {
+    font-size: 13px;
+    color: #555;
+}
+
+.action-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+    .stats-grid {
+        grid-template-columns: repeat(2, 1fr);
