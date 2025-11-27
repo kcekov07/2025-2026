@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BbOkqWe/iD48YI2zT7rnX2pD8gqNcdFTPk/fCeqGKWQ=",
+  "Hash": "bww2ccy1DU7AaRIpP0Law2ww/k/VVRFVweK6IHAWVWQ=",
   "Source": "EcoLoop",
   "BasePath": "_content/EcoLoop",
   "Mode": "Default",
@@ -1288,6 +1288,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\images\\logo-eco.svg"
+    },
+    {
+      "Identity": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\profile\\default.svg",
+      "SourceId": "EcoLoop",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\",
+      "BasePath": "_content/EcoLoop",
+      "RelativePath": "images/profile/default.svg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\profile\\default.svg"
     },
     {
       "Identity": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\js\\site.js",

@@ -43,9 +43,7 @@ public class RegisterModel : PageModel
     public async Task<IActionResult> OnPostAsync()
     {
         if (!ModelState.IsValid)
-        {
             return Page();
-        }
 
         var user = new ApplicationUser
         {
@@ -55,30 +53,25 @@ public class RegisterModel : PageModel
             EmailConfirmed = true
         };
 
-        // Нива по подразбиране
-        if (Input.UserRole == "User")
-            user.EcoLevel = "Eco Explorer";
-
-        if (Input.UserRole == "Producer")
-            user.ProducerLevel = "Local Partner";
-
         var result = await _userManager.CreateAsync(user, Input.Password);
 
         if (result.Succeeded)
         {
-            // ако ролята не съществува ? създаваме я
-            if (!await _roleManager.RoleExistsAsync(Input.UserRole))
-            {
-                await _roleManager.CreateAsync(new IdentityRole(Input.UserRole));
-            }
-
-            // добавяне към роля
+            // Add role
             await _userManager.AddToRoleAsync(user, Input.UserRole);
 
-            // auto-login
-            await _signInManager.SignInAsync(user, isPersistent: false);
+            // Assign default levels
+            if (Input.UserRole == "User")
+                user.EcoLevel = "Eco Explorer";
 
-            return RedirectToPage("/Index");
+            if (Input.UserRole == "Producer")
+                user.ProducerLevel = "Local Partner";
+
+            await _userManager.UpdateAsync(user);
+
+            await _signInManager.SignInAsync(user, false);
+
+            return Redirect("/");
         }
 
         foreach (var error in result.Errors)

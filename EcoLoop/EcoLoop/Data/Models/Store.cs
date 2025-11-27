@@ -26,6 +26,7 @@ namespace EcoLoop.Data.Models
         public bool IsProducer { get; set; }
         public string? OpeningHours { get; set; }  // пример: "09:00-18:00"
 
+        public bool IsApproved { get; set; } = false;
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 

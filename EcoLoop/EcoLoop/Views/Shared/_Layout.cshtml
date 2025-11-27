@@ -78,17 +78,17 @@
                         @if (User.IsInRole("Admin"))
                         {
                             <li class="nav-item">
-                                <a class="nav-link text-danger fw-bold" href="/Admin">
-                                    🛠 Admin Panel
-                                </a>
+                                <a class="nav-link text-danger fw-bold" href="/Admin">🛠 Admin Panel</a>
                             </li>
                         }
 
+
                         <!-- Logout -->
                         <li class="nav-item">
-                            <form method="post" action="/Identity/Account/Logout" class="d-inline">
+                            <form method="post" asp-area="Identity" asp-page="/Account/Logout" class="d-inline">
                                 <button type="submit" class="btn nav-link text-dark">🚪 Изход</button>
                             </form>
+
                         </li>
                     }
                     else

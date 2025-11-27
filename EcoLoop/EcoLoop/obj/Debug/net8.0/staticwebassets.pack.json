@@ -25,6 +25,10 @@
       "PackagePath": "staticwebassets\\images\\logo-eco.svg"
     },
     {
+      "Id": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\profile\\default.svg",
+      "PackagePath": "staticwebassets\\images\\profile\\default.svg"
+    },
+    {
       "Id": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

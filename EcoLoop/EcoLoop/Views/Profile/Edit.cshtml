@@ -1,0 +1,37 @@
+﻿@model EcoLoop.Models.ProfileEditViewModel
+
+<div class="container mt-4">
+    <h2>Редакция на профил</h2>
+
+    <form method="post" enctype="multipart/form-data">
+
+        <div class="mb-3">
+            <label class="form-label">Актуална снимка</label><br />
+            <img src="@Model.CurrentImageUrl" width="120" style="border-radius: 10px;" />
+        </div>
+
+        <div class="mb-3">
+            <label>Нова профилна снимка</label>
+            <input type="file" asp-for="ProfileImage" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Потребителско име</label>
+            <input asp-for="Username" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Email</label>
+            <input asp-for="Email" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label>Био</label>
+            <textarea asp-for="Bio" class="form-control"></textarea>
+        </div>
+
+        <button class="btn btn-success">Запази</button>
+        <a href="/Profile" class="btn btn-secondary">Назад</a>
+
+    </form>
+</div>

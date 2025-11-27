@@ -95,6 +95,15 @@
             <button type="submit" class="btn btn-danger">🚪 Изход</button>
         </form>
     </div>
+    @if (User.IsInRole("Admin"))
+    {
+        <div class="mt-4">
+            <a href="/Admin" class="btn btn-danger w-100">
+                🛠 Отиди в Admin Panel
+            </a>
+        </div>
+    }
+
 
 </div>
 
