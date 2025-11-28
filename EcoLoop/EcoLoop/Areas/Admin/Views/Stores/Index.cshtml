@@ -1,0 +1,121 @@
+﻿@using EcoLoop.Models
+@{
+    ViewData["Title"] = "Управление на магазини";
+
+    var pending = ViewBag.PendingStores as List<AdminStoreListItemViewModel>;
+    var all = ViewBag.AllStores as List<AdminStoreListItemViewModel>;
+}
+
+<div class="container mt-4">
+    <h2 class="mb-3">🛍 Управление на магазини</h2>
+
+    <h4>⏳ Чакащи одобрение</h4>
+
+    @if (pending != null && pending.Any())
+    {
+        <table class="table table-sm table-striped align-middle">
+            <thead>
+                <tr>
+                    <th>Име</th>
+                    <th>Категория</th>
+                    <th>Адрес</th>
+                    <th>Създаден</th>
+                    <th>Рейтинг</th>
+                    <th>Ревюта</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var s in pending)
+                {
+                    <tr>
+                        <td>@s.Name</td>
+                        <td>@s.Category</td>
+                        <td>@s.Address</td>
+                        <td>@s.CreatedAtShort</td>
+                        <td>@s.Rating</td>
+                        <td>@s.ReviewsCount</td>
+                        <td>
+                            <form asp-action="Approve" method="post" class="d-inline" asp-route-id="@s.Id">
+                                <button type="submit" class="btn btn-success btn-sm">✅ Одобри</button>
+                            </form>
+                            <form asp-action="Delete" method="post" class="d-inline" asp-route-id="@s.Id">
+                                <button type="submit" class="btn btn-danger btn-sm"
+                                        onclick="return confirm('Наистина ли искаш да изтриеш този магазин?');">
+                                    🗑 Изтрий
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="text-muted">Няма чакащи магазини.</p>
+    }
+
+    <hr />
+
+    <h4>📋 Всички магазини</h4>
+
+    @if (all != null && all.Any())
+    {
+        <table class="table table-sm table-hover align-middle">
+            <thead>
+                <tr>
+                    <th>Име</th>
+                    <th>Категория</th>
+                    <th>Адрес</th>
+                    <th>Одобрен</th>
+                    <th>Рейтинг</th>
+                    <th>Ревюта</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var s in all)
+                {
+                    <tr>
+                        <td>@s.Name</td>
+                        <td>@s.Category</td>
+                        <td>@s.Address</td>
+                        <td>
+                            @if (s.IsApproved)
+                            {
+                                <span class="badge bg-success">Да</span>
+                            }
+                            else
+                            {
+                                <span class="badge bg-warning text-dark">Не</span>
+                            }
+                        </td>
+                        <td>@s.Rating</td>
+                        <td>@s.ReviewsCount</td>
+                        <td>
+                            @if (!s.IsApproved)
+                            {
+                                <form asp-action="Approve" method="post" class="d-inline" asp-route-id="@s.Id">
+                                    <button type="submit" class="btn btn-success btn-sm">Одобри</button>
+                                </form>
+                            }
+
+                            <form asp-action="Delete" method="post" class="d-inline" asp-route-id="@s.Id">
+                                <button type="submit" class="btn btn-outline-danger btn-sm"
+                                        onclick="return confirm('Сигурен ли си, че искаш да изтриеш този магазин?');">
+                                    🗑
+                                </button>
+                            </form>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="text-muted">Няма магазини.</p>
+    }
+
+</div>

@@ -19,7 +19,8 @@ namespace EcoLoop.Controllers
         public async Task<IActionResult> Index()
         {
             var stores = await _context.Stores
-                .Where(s => s.Latitude != 0 && s.Longitude != 0)
+               .Where(s => s.IsApproved && s.Latitude != 0 && s.Longitude != 0)
+
                 .Select(s => new MapStoreViewModel
                 {
                     Id = s.Id,

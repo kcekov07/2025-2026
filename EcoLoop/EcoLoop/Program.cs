@@ -10,7 +10,7 @@ namespace EcoLoop
         {
             var builder = WebApplication.CreateBuilder(args);
 
-            // Add services to the container.
+            // ========== DB ==========
             var connectionString = builder.Configuration.GetConnectionString("DefaultConnection")
                 ?? throw new InvalidOperationException("Connection string 'DefaultConnection' not found.");
 
@@ -19,7 +19,7 @@ namespace EcoLoop
 
             builder.Services.AddDatabaseDeveloperPageExceptionFilter();
 
-            // Identity + Roles + ApplicationUser
+            // ========== Identity ==========
             builder.Services
                 .AddDefaultIdentity<ApplicationUser>(options =>
                 {
@@ -28,12 +28,12 @@ namespace EcoLoop
                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
-            builder.Services.AddRazorPages();
             builder.Services.AddControllersWithViews();
+            builder.Services.AddRazorPages();
 
             var app = builder.Build();
 
-            // --- AUTOMATIC ROLE & ADMIN SEEDING ---
+            // ========== ROLE SEEDING ==========
             using (var scope = app.Services.CreateScope())
             {
                 var roleManager = scope.ServiceProvider.GetRequiredService<RoleManager<IdentityRole>>();
@@ -41,16 +41,12 @@ namespace EcoLoop
 
                 string[] roles = { "Admin", "Producer", "User" };
 
-                // Create roles if they don't exist
                 foreach (var role in roles)
                 {
                     if (!await roleManager.RoleExistsAsync(role))
-                    {
                         await roleManager.CreateAsync(new IdentityRole(role));
-                    }
                 }
 
-                // Default admin account
                 string adminEmail = "admin@eco.com";
                 string adminPassword = "Admin123!";
 
@@ -69,18 +65,13 @@ namespace EcoLoop
                     var result = await userManager.CreateAsync(admin, adminPassword);
 
                     if (result.Succeeded)
-                    {
                         await userManager.AddToRoleAsync(admin, "Admin");
-                    }
                 }
             }
-            // --- END SEEDING ---
 
-            // Configure the HTTP request pipeline.
+            // ========== PIPELINE ==========
             if (app.Environment.IsDevelopment())
-            {
                 app.UseMigrationsEndPoint();
-            }
             else
             {
                 app.UseExceptionHandler("/Home/Error");
@@ -95,9 +86,21 @@ namespace EcoLoop
             app.UseAuthentication();
             app.UseAuthorization();
 
+
+            // ========== ADMIN AREA ROUTE ==========
+            app.MapControllerRoute(
+                name: "admin",
+                pattern: "Admin/{controller=AdminHome}/{action=Index}/{id?}",
+                defaults: new { area = "Admin" }
+            );
+
+
+            // ========== DEFAULT ROUTE (ЛИПСВАШИЯТ!) ==========
             app.MapControllerRoute(
                 name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+                pattern: "{controller=Home}/{action=Index}/{id?}"
+            );
+
 
             app.MapRazorPages();
 

@@ -1,0 +1,40 @@
+﻿@using EcoLoop.Models
+@model AdminDashboardViewModel
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Админ Табло";
+}
+
+<h1 class="mb-4">🌿 Административно табло</h1>
+
+<div class="row g-4">
+
+    <div class="col-md-3">
+        <div class="card shadow-sm p-3 text-center">
+            <h3 class="fw-bold">@Model.Stores</h3>
+            <p class="text-muted">Магазини</p>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card shadow-sm p-3 text-center">
+            <h3 class="fw-bold">@Model.PendingStores</h3>
+            <p class="text-muted">Чакащи одобрение</p>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card shadow-sm p-3 text-center">
+            <h3 class="fw-bold">@Model.Users</h3>
+            <p class="text-muted">Потребители</p>
+        </div>
+    </div>
+
+    <div class="col-md-3">
+        <div class="card shadow-sm p-3 text-center">
+            <h3 class="fw-bold">@Model.Reviews</h3>
+            <p class="text-muted">Ревюта</p>
+        </div>
+    </div>
+
+</div>

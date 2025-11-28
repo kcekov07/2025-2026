@@ -17,8 +17,10 @@ namespace EcoLoop.Controllers
         public async Task<IActionResult> Index()
         {
             var stores = await _context.Stores
-                .OrderByDescending(s => s.Id)
-                .Take(4)
+            .Where(s => s.IsApproved)
+            .OrderByDescending(s => s.Id)
+            .Take(4)
+
                 .Select(s => new StoreCardViewModel
                 {
                     Id = s.Id,

@@ -2,7 +2,6 @@
 using EcoLoop.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 
 namespace EcoLoop.Areas.Admin.Controllers
 {
@@ -24,7 +23,7 @@ namespace EcoLoop.Areas.Admin.Controllers
                 Users = _context.Users.Count(),
                 Stores = _context.Stores.Count(),
                 Reviews = _context.Reviews.Count(),
-                PendingStores = _context.Stores.Count(s => !s.IsApproved)
+                PendingStores = _context.Stores.Where(s => !s.IsApproved).Count()
             };
 
             return View(model);

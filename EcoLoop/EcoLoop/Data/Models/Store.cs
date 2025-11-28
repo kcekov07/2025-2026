@@ -20,17 +20,17 @@ namespace EcoLoop.Data.Models
 
         public string ImageUrl { get; set; }
 
-
         public bool AcceptsOwnPackaging { get; set; }
         public bool Delivery { get; set; }
         public bool IsProducer { get; set; }
-        public string? OpeningHours { get; set; }  // пример: "09:00-18:00"
 
-        public bool IsApproved { get; set; } = false;
+        public string? OpeningHours { get; set; }
 
         public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
 
-        // Navigation properties
+        // Дали е одобрен от админ
+        public bool IsApproved { get; set; } = false;
+
         public ICollection<StoreImage> Images { get; set; } = new List<StoreImage>();
         public ICollection<Review> Reviews { get; set; } = new List<Review>();
 

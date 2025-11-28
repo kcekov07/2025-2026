@@ -18,25 +18,28 @@
     <!-- Site CSS -->
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/profile.css" />
-
     <link rel="stylesheet" href="~/EcoLoop.styles.css" asp-append-version="true" />
+
     @RenderSection("Styles", required: false)
 </head>
 <body>
 
+    <!-- NAVBAR -->
     <nav class="navbar navbar-expand-lg navbar-light navbar-eco-light shadow-sm sticky-top">
         <div class="container">
 
-            <!-- Logo + text -->
+            <!-- Logo -->
             <a class="navbar-brand d-flex align-items-center fw-bold" href="/">
-                <img src="~/images/logo-eco.svg" alt="EcoLoop Logo" class="me-2" />
+                <img src="~/images/logo-eco.svg" alt="EcoLoop Logo" class="me-2" style="height:32px;" />
                 EcoLoop
             </a>
 
+            <!-- Mobile toggle -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
+            <!-- NAV CONTENT -->
             <div class="collapse navbar-collapse" id="navbarNav">
 
                 <!-- LEFT MENU -->
@@ -47,7 +50,7 @@
                     <li class="nav-item"><a class="nav-link" href="/Store">🛍️ Магазини</a></li>
                 </ul>
 
-                <!-- Search -->
+                <!-- SEARCH BAR -->
                 <div class="position-relative me-3" style="width: 250px;">
                     <form method="get" action="/Store/Search"
                           class="d-flex align-items-center nav-search px-3 py-1 shadow-sm">
@@ -56,53 +59,76 @@
                                placeholder="Търси..." autocomplete="off" id="navbarSearchInput">
                     </form>
 
+                    <!-- AUTOCOMPLETE -->
                     <div id="navbarSearchDropdown"
                          class="dropdown-menu w-100 shadow-sm mt-1"
                          style="display:none; max-height:250px; overflow-y:auto;">
                     </div>
                 </div>
 
-
                 <!-- RIGHT SIDE (AUTH) -->
                 <ul class="navbar-nav">
+
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <!-- Profile -->
-                        <li class="nav-item">
-                            <a class="nav-link" href="/Profile/Index">
-                                👤 Профил
+                        <!-- PROFILE DROPDOWN -->
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle fw-bold" href="#" id="profileDropdown"
+                               role="button" data-bs-toggle="dropdown">
+                                👤 @User.Identity.Name
                             </a>
-                        </li>
 
-                        <!-- Admin Panel -->
-                        @if (User.IsInRole("Admin"))
-                        {
-                            <li class="nav-item">
-                                <a class="nav-link text-danger fw-bold" href="/Admin">🛠 Admin Panel</a>
-                            </li>
-                        }
+                            <ul class="dropdown-menu dropdown-menu-end">
 
+                                <li>
+                                    <a class="dropdown-item" href="/Profile/Index">
+                                        📄 Моят профил
+                                    </a>
+                                </li>
 
-                        <!-- Logout -->
-                        <li class="nav-item">
-                            <form method="post" asp-area="Identity" asp-page="/Account/Logout" class="d-inline">
-                                <button type="submit" class="btn nav-link text-dark">🚪 Изход</button>
-                            </form>
+                                <li>
+                                    <a class="dropdown-item" href="/Profile/Edit">
+                                        ✏️ Редактирай профил
+                                    </a>
+                                </li>
 
+                                @if (User.IsInRole("Admin"))
+                                {
+                                    <li><hr class="dropdown-divider"></li>
+                                    <li>
+                                        <a class="dropdown-item text-danger fw-bold" href="/Admin/AdminHome">
+                                            🛠 Admin Panel
+                                        </a>
+                                    </li>
+                                }
+
+                                <li><hr class="dropdown-divider" /></li>
+
+                                <!-- LOGOUT -->
+                                <li>
+                                    <form method="post" asp-area="Identity" asp-page="/Account/Logout">
+                                        <button class="dropdown-item">🚪 Изход</button>
+                                    </form>
+                                </li>
+
+                            </ul>
                         </li>
                     }
                     else
                     {
                         <!-- Login -->
                         <li class="nav-item">
-                            <a class="nav-link" href="/Identity/Account/Login">Вход</a>
+                            <a class="nav-link fw-bold" href="/Identity/Account/Login">Вход</a>
                         </li>
 
                         <!-- Register -->
                         <li class="nav-item">
-                            <a class="btn btn-success ms-2" href="/Identity/Account/Register">Регистрация</a>
+                            <a class="btn btn-success ms-2 fw-bold" href="/Identity/Account/Register">
+                                Регистрация
+                            </a>
                         </li>
                     }
+
                 </ul>
 
             </div>
@@ -117,6 +143,7 @@
         </main>
     </div>
 
+
     <!-- FOOTER -->
     <footer class="border-top py-4 mt-5">
         <div class="container text-center">
@@ -126,18 +153,15 @@
             <div class="footer-links">
 
                 <a href="/Home/Privacy" class="mx-2">
-                    <i class="bi bi-shield-check me-1"></i>
-                    Политика за поверителност
+                    <i class="bi bi-shield-check me-1"></i> Политика за поверителност
                 </a>
 
                 <a href="/Home/About" class="mx-2">
-                    <i class="bi bi-info-circle me-1"></i>
-                    За нас
+                    <i class="bi bi-info-circle me-1"></i> За нас
                 </a>
 
                 <a href="/Home/Contact" class="mx-2">
-                    <i class="bi bi-envelope me-1"></i>
-                    Контакти
+                    <i class="bi bi-envelope me-1"></i> Контакти
                 </a>
 
             </div>
@@ -145,12 +169,10 @@
         </div>
     </footer>
 
-
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-
-    <!-- Autocomplete Script -->
+    <!-- AUTOCOMPLETE JS -->
     <script>
         const input = document.getElementById("navbarSearchInput");
         const dropdown = document.getElementById("navbarSearchDropdown");
@@ -164,21 +186,19 @@
             }
 
             dropdown.innerHTML = `
-                        <a class="dropdown-item" href="/Store/Search?q=${text}">
-                            Търси "${text}"
-                        </a>
-                        <div class="dropdown-divider"></div>
-                        <a class="dropdown-item" href="#">Bio Market — София</a>
-                        <a class="dropdown-item" href="#">Green Shop — Пловдив</a>
-                    `;
+                <a class="dropdown-item" href="/Store/Search?q=${text}">
+                    Търси "${text}"
+                </a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Bio Market — София</a>
+                <a class="dropdown-item" href="#">Green Shop — Пловдив</a>
+            `;
 
             dropdown.style.display = "block";
         });
 
         document.addEventListener("click", function (e) {
-            if (!input.contains(e.target)) {
-                dropdown.style.display = "none";
-            }
+            if (!input.contains(e.target)) dropdown.style.display = "none";
         });
     </script>
 
