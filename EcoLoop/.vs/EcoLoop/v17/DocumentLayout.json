@@ -1,249 +1,253 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\",
+  "WorkspaceRootPath": "D:\\2025-2026\\EcoLoop\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\images\\profile\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\wwwroot\\images\\profile\\filename.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\views\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\views\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\admin\\views\\adminhome\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\controllers\\adminhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\controllers\\adminhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\admin\\controllers\\adminhomecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\admin\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\admin\\views\\shared\\_adminlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\admin\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\models\\admindashboardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\controllers\\storescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\controllers\\storescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\admin\\controllers\\storescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\views\\profile\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\views\\admin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\views\\stores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\admin\\views\\stores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\admin\\views\\stores\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\models\\adminstorelistitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\models\\adminstorelistitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\models\\adminstorelistitemviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\models\\store.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\controllers\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\controllers\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\controllers\\mapcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\models\\mappageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\models\\mappageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\models\\mappageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\views\\map\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\views\\map\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\views\\map\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\wwwroot\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\models\\profileeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\models\\profileeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\models\\profileeditviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\identity\\pages\\account\\logout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\identity\\pages\\account\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\controllers\\profilecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\models\\storeimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\models\\storeimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\models\\storeimage.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\models\\review.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\views\\profile\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\images\\profile\\default.svg||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\images\\profile\\default.svg||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\wwwroot\\images\\profile\\default.svg||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\identity\\pages\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\_validationscriptspartial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\_validationscriptspartial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\identity\\pages\\account\\_validationscriptspartial.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\ecoloop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\ecoloop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\ecoloop.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\css\\profile.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\css\\profile.css||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\wwwroot\\css\\profile.css||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\controllers\\admincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\css\\map.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\css\\map.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\wwwroot\\css\\map.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\models\\mapstoreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\models\\mapstoreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\models\\mapstoreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\migrations\\applicationdbcontextmodelsnapshot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\images\\logo-eco.svg||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\wwwroot\\images\\logo-eco.svg||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\wwwroot\\images\\logo-eco.svg||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\models\\storecardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\models\\storecardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\models\\storecardviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125093010_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125093010_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\migrations\\20251125093010_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125095129_addimageurltostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125095129_addimageurltostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\migrations\\20251125095129_addimageurltostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125181314_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125181314_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\migrations\\20251125181314_edit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125182427_addopeninghourstostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125182427_addopeninghourstostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\migrations\\20251125182427_addopeninghourstostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125182510_updateseedwithopeninghours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125182510_updateseedwithopeninghours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\migrations\\20251125182510_updateseedwithopeninghours.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125172646_makeimageurlnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251125172646_makeimageurlnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\migrations\\20251125172646_makeimageurlnullable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251126175427_addapplicationuserandidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251126175427_addapplicationuserandidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\migrations\\20251126175427_addapplicationuserandidentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251126173541_adduserprofilefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251126173541_adduserprofilefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\migrations\\20251126173541_adduserprofilefields.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251127181525_addisapprovedtostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251127181525_addisapprovedtostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\migrations\\20251127181525_addisapprovedtostore.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|c:\\users\\xii class\\source\\repos\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251127180108_addbiotoapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|d:\\2025-2026\\ecoloop\\ecoloop\\data\\migrations\\20251127180108_addbiotoapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F69B599F-6C5A-43D5-B881-2668A819DC7B}|EcoLoop\\EcoLoop.csproj|solutionrelative:ecoloop\\data\\migrations\\20251127180108_addbiotoapplicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -254,15 +258,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "FileName.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\profile\\FileName.cs",
+              "RelativeDocumentMoniker": "EcoLoop\\wwwroot\\images\\profile\\FileName.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\profile\\FileName.cs",
+              "RelativeToolTip": "EcoLoop\\wwwroot\\images\\profile\\FileName.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-02T04:55:45.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "AdminHomeController.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
               "RelativeToolTip": "EcoLoop\\Areas\\Admin\\Controllers\\AdminHomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -270,11 +287,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Program.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Program.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Program.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Program.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Program.cs",
               "RelativeToolTip": "EcoLoop\\Program.cs",
               "ViewState": "AgIAAGAAAAAAAAAAAAAwwG4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -283,11 +300,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Admin\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "EcoLoop\\Areas\\Admin\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAACwAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -295,24 +312,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
               "RelativeToolTip": "EcoLoop\\Areas\\Admin\\Views\\AdminHome\\Index.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-28T07:37:52.542Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-28T07:37:52.542Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\appsettings.json",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\appsettings.json",
               "RelativeDocumentMoniker": "EcoLoop\\appsettings.json",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\appsettings.json",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\appsettings.json",
               "RelativeToolTip": "EcoLoop\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -320,11 +336,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Views\\Home\\Index.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "EcoLoop\\Views\\Home\\Index.cshtml",
               "ViewState": "AgIAAB4AAAAAAAAAAAAAAFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -332,11 +348,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "EcoLoop\\Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAMIAAAAAAAAAAAAwwNAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -344,11 +360,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\HomeController.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\HomeController.cs",
               "RelativeToolTip": "EcoLoop\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAAABUAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -356,11 +372,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "_AdminLayout.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "RelativeToolTip": "EcoLoop\\Areas\\Admin\\Views\\Shared\\_AdminLayout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -368,11 +384,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "DashboardController.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Admin\\Controllers\\DashboardController.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\DashboardController.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "RelativeToolTip": "EcoLoop\\Areas\\Admin\\Controllers\\DashboardController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -380,11 +396,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AdminDashboardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\AdminDashboardViewModel.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\AdminDashboardViewModel.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Models\\AdminDashboardViewModel.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\AdminDashboardViewModel.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\AdminDashboardViewModel.cs",
               "RelativeToolTip": "EcoLoop\\Models\\AdminDashboardViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -392,11 +408,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "StoresController.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\StoresController.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\StoresController.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Admin\\Controllers\\StoresController.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\StoresController.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Controllers\\StoresController.cs",
               "RelativeToolTip": "EcoLoop\\Areas\\Admin\\Controllers\\StoresController.cs",
               "ViewState": "AgIAACcAAAAAAAAAAAAgwFMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -404,11 +420,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Profile\\Index.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Profile\\Index.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Views\\Profile\\Index.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Profile\\Index.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Profile\\Index.cshtml",
               "RelativeToolTip": "EcoLoop\\Views\\Profile\\Index.cshtml",
               "ViewState": "AgIAADYAAAAAAAAAAAAAAFkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -416,11 +432,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 15,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Admin\\Index.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Admin\\Index.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Views\\Admin\\Index.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Admin\\Index.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Admin\\Index.cshtml",
               "RelativeToolTip": "EcoLoop\\Views\\Admin\\Index.cshtml",
               "ViewState": "AgIAAF0AAAAAAAAAAAAAAI4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -428,11 +444,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 16,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Stores\\Index.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Stores\\Index.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Admin\\Views\\Stores\\Index.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Stores\\Index.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Admin\\Views\\Stores\\Index.cshtml",
               "RelativeToolTip": "EcoLoop\\Areas\\Admin\\Views\\Stores\\Index.cshtml",
               "ViewState": "AgIAAGsAAAAAAAAAAAAwwHkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -440,11 +456,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeToolTip": "EcoLoop\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -452,11 +468,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "AdminStoreListItemViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\AdminStoreListItemViewModel.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\AdminStoreListItemViewModel.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Models\\AdminStoreListItemViewModel.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\AdminStoreListItemViewModel.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\AdminStoreListItemViewModel.cs",
               "RelativeToolTip": "EcoLoop\\Models\\AdminStoreListItemViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -464,11 +480,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "Store.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\Store.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\Store.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Models\\Store.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\Store.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\Store.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Models\\Store.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -476,11 +492,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "MapController.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\MapController.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\MapController.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Controllers\\MapController.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\MapController.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\MapController.cs",
               "RelativeToolTip": "EcoLoop\\Controllers\\MapController.cs",
               "ViewState": "AgIAAA0AAAAAAAAAAAA7wBUAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -488,11 +504,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 22,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Views\\Home\\Privacy.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "EcoLoop\\Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -500,11 +516,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 23,
               "Title": "favicon.ico - Icon [32x32, 32 bit, BMP]",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\favicon.ico",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\favicon.ico",
               "RelativeDocumentMoniker": "EcoLoop\\wwwroot\\favicon.ico",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
               "RelativeToolTip": "EcoLoop\\wwwroot\\favicon.ico - Icon [32x32, 32 bit, BMP]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
               "WhenOpened": "2025-11-28T06:06:01.557Z",
@@ -512,11 +528,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 21,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Map\\Index.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Map\\Index.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Views\\Map\\Index.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Map\\Index.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Map\\Index.cshtml",
               "RelativeToolTip": "EcoLoop\\Views\\Map\\Index.cshtml",
               "ViewState": "AgIAAHgBAAAAAAAAAAAwwJsBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -524,11 +540,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 20,
               "Title": "MapPageViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\MapPageViewModel.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\MapPageViewModel.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Models\\MapPageViewModel.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\MapPageViewModel.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\MapPageViewModel.cs",
               "RelativeToolTip": "EcoLoop\\Models\\MapPageViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -536,11 +552,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 25,
               "Title": "ProfileEditViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\ProfileEditViewModel.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\ProfileEditViewModel.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Models\\ProfileEditViewModel.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\ProfileEditViewModel.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\ProfileEditViewModel.cs",
               "RelativeToolTip": "EcoLoop\\Models\\ProfileEditViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -548,11 +564,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 24,
               "Title": "site.js",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\js\\site.js",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "EcoLoop\\wwwroot\\js\\site.js",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\js\\site.js",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\js\\site.js",
               "RelativeToolTip": "EcoLoop\\wwwroot\\js\\site.js",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
@@ -560,11 +576,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 26,
               "Title": "Logout.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "RelativeToolTip": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -572,11 +588,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 27,
               "Title": "_ValidationScriptsPartial.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml",
               "RelativeToolTip": "EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -584,11 +600,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "Login.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "RelativeToolTip": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -596,11 +612,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "Register.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "RelativeToolTip": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
               "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -608,11 +624,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ProfileController.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\ProfileController.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\ProfileController.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Controllers\\ProfileController.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\ProfileController.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\ProfileController.cs",
               "RelativeToolTip": "EcoLoop\\Controllers\\ProfileController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -620,11 +636,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\ApplicationDbContext.cs",
               "RelativeToolTip": "EcoLoop\\Data\\ApplicationDbContext.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAAwCsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -632,11 +648,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "StoreImage.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\StoreImage.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\StoreImage.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Models\\StoreImage.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\StoreImage.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\StoreImage.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Models\\StoreImage.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -644,11 +660,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "ApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\ApplicationUser.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\ApplicationUser.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\ApplicationUser.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\ApplicationUser.cs",
               "RelativeToolTip": "EcoLoop\\Data\\ApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -656,11 +672,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 59,
+              "DocumentIndex": 60,
               "Title": "20251127181525_AddIsApprovedToStore.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251127181525_AddIsApprovedToStore.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251127181525_AddIsApprovedToStore.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Migrations\\20251127181525_AddIsApprovedToStore.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251127181525_AddIsApprovedToStore.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251127181525_AddIsApprovedToStore.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Migrations\\20251127181525_AddIsApprovedToStore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -668,11 +684,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Profile\\Edit.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Profile\\Edit.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Views\\Profile\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Profile\\Edit.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Views\\Profile\\Edit.cshtml",
               "RelativeToolTip": "EcoLoop\\Views\\Profile\\Edit.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -680,23 +696,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "default.svg",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\profile\\default.svg",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\profile\\default.svg",
               "RelativeDocumentMoniker": "EcoLoop\\wwwroot\\images\\profile\\default.svg",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\profile\\default.svg",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\profile\\default.svg",
               "RelativeToolTip": "EcoLoop\\wwwroot\\images\\profile\\default.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQESURBVDhPrZRdbJNVHMZ/b/u26xfUbqPYbd2wIKxsbGDYpk6joISJCuIHRkyMVxpDNBpjQjDRZFfeaFiI3ojGS00MshgvIEQkYyTAnJMs4yPb2Nqt27p17d5\u002B0L7v23O8WDc28JIneXK\u002B/ufJ\u002BZ/znD88SEgplXvnurq6jjc2Nn5UWkdKuRQLgBCCfD5PNpvtPnr06JFoNBpbrXAPurq6hoQQolgs/i9N0xQDAwOir69PnDhx4tdwOLxl5X7rygFAR0fHkba2tkohwdRTiNw1lMwP6DM/Y0z9AcDwhMHOljacTmfIbrfXTE5OXkskEon7BO2tbyr1za1HbuTKKm9N9rLW/A7nzPeYsbOgbEHIIGb8EtFZqNvcis/nU10u16by8vLg9evXL6bT6fSioKLgfmy/r/bF975cE6h9viVss\u002B9efxzv9BkGRrfzm/YxI2WH2da8DzE7RMZwc7F/jP7\u002BfjRNs/p8vvCFCxd\u002BSaVSMRXA0bjXW3fgw8\u002Be21nz/mvbRlw7xeckbubozR7jVugVorqTSyPTZI0xXvc3UN\u002B8kRr86LqOx\u002BNhcHBwOUsLgL/jg/a28Lq3DzVcXtuS\u002B1RZGMgzqXSSW3cQWxbchknthiquzhbpST6CsqaWysoKAoEAXq8Xq9W67AILQF3Ac/Dl\u002BqGKJuMbZa7PwNX0E9seP8ihHQHeaqokMzWLz16G4nbSl7Axl7eUziNhhbUAVICt61JPP\u002BH90ZkZdfCt8QUTf9kwzH8RUiIR5IsqFaoFm93G6GyBZFqnaq0DKQHlrkcB1KqAan\u002B36UyNLTKinLd8Jd0te5SQtLAYTUlUYtzR0XWDgmliSllalsh7PoBl4kbtgc3i97IrmcNyqGJv8cqlm1KOjiNGxigO36Y4fBsxfBslOk51YZ5ngx78HntJbPUvAlClFntjZry6cL64CyMrVbfTZmkPVSo7qt14HSpa3uDyWJJIMgdSEvS58DjUpQQW73EF1PxEvj2ZLfuzd1rdWqum6taHqpWzUznO3ppB6gaqXaXoqSBZdDEfn\u002BcFi4LNcrcELKW8BIu5oDj3HSscjk3PfX1zaDQxPpWWunsN1G5A2fQoheo64lIhHk8Qcpi81Lgeu3Xple\u002BH9dg7\u002BJ95OBm62nujpy5gMzIpo17LCPdEfIHEXIo7iXls6QUaHlL5ZNdGyt12UJRlyyiKQiQS4fTp0yc1TYtZN1RxOTbN7rB95pnqeM9goKbZtefJp\u002Br9tiJbvCqtVW72N/h5dXsVDpu6eIySXQAUi4VIJEp3d/dJTdPuL2WdnZ09QghhGEaJujD0RerLLCy3hmGIc\u002BfOiWAw2MKSsVdCSvn3qVOn2kt9pJQIIVYV2pUE0DTtH2B\u002BtdIDwn\u002B7nChdLXVvTAAAAABJRU5ErkJggg==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQKSURBVDhPrVRbTCNVGP5OOzO9TKEWSrGUttpdpV2ua7ioaDa7ullcdVe8rHFNjPFBY4hGY0wIJprw5ItmCdEXL/FRE4MQsw9LiCthIcFFxA3hFiEsLQUKpaW03XZmOuOZaQsY9W2/5J/zz3/55j///OfgrkJRFFJQD9DX13elrq7uXVWnfk2KugpZlpHJZJBKpYa6u7u7gsFgWHP8HyjhHE2Sc7ncf4okSfLMzIw8NTUl9/f3/xgIBGoKqRr0hfUAHR0dXW1tbXaZFiQJccjpWyDJbyBsfQ9x46oW81dIRHNLG0wmk4/juOr19fVbUQrV9w9CrvVl4m9s7VpIG\u002BxL6\u002BMolb6EaesrSOFhgNRAVtyQIhMIbgPeB1ths9kYs9l8vKyszD0/P39jnyJPSAj4hy7YPE\u002B/\u002BUmJ0/NkS4DlzlRegXXzGmZWmvBT4j0sGy6jvvE85O05JEUeN6ZXMT09jUQioafEgdHR0R/i8XiYUfmMdees3ovvfPhEc/VbL9Qvm5vljxBdTGM81YMl33MICiZMLG8iJa7iRUct/I3HUA0HBEGAxWLB7OysVpcKnfpwdLzd3haoePVS7WRpS/oDsjeTwTrpRbqiE2wK4EUJnvuqcHM7h7HY/SAlHtjt5XA6nbBardDr9QdToBF6nZbOZ/1z5Q3i52RnSoS54TvUP9yJSyedeKXBjuTGNmycAYQ3YSrKYiejpVFQkiOjpULb8omK\u002BOOPWL81JVeM\u002BEL8GKFfWYjSn/Qn0GDQucsxKGd0YDkWK9tZxPYFVJUaVS7a/8MZVcFUORnu9YZr1ezaMrmu\u002B1ThW84Sn0IrKATlSRWIdwTaMxFZSYKk2jS36skTFkmZ0ILnYmzlZ8Nk8g1lzn0u99vEor6p0kwUeiLUIJVQTSR0MF202ka3BQ4Lp9nydHnCIhglEX5p67Yrez13GmJKYXgTq2v32clJFw\u002BrkUEiI2JyNYa1WFrNhNtmhoXaDzkOyVQwmVCmPZYy/DK\u002ByZzwMHFvpc9FhjfSGF7agkK3yHAMcpZyxHJm7EZ28ZSOgKVShFb/kQp10h4xne/JXg5v7ny2OLcSvb2xrwh8CeicgBx/AFmXFxF6h0QiUfiMEp6pqwSnL/7lf0Pf8xocp\u002B6N\u002BW6OL4x5nayYjIv\u002BRFLmQ5E9RHfiuBPdBbu/h9p7GLx/\u002BhjKeNo/erK02mhlhOpra2sYHBz8mp6asJ7O62R4E2cC3NYpV2Rs1lndaD776GN\u002BB5tDjZVBaxWPC7UOPN9UBSOrTVl\u002Bn4VdE52OEgYxNDSkEeatR9Db2zumXl\u002BiKBZEkEUhL/SoFSR7sKoxIyMjstvtblHzC588BG3w7wMDA\u002B0FXRP1Ui02vmgrigpa2R902dVe7i6AvwHcTSP/8z9AyQAAAABJRU5ErkJggg==",
               "WhenOpened": "2025-11-27T18:04:09.018Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 60,
+              "DocumentIndex": 61,
               "Title": "20251127180108_AddBioToApplicationUser.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251127180108_AddBioToApplicationUser.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251127180108_AddBioToApplicationUser.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Migrations\\20251127180108_AddBioToApplicationUser.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251127180108_AddBioToApplicationUser.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251127180108_AddBioToApplicationUser.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Migrations\\20251127180108_AddBioToApplicationUser.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -704,11 +720,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "Review.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\Review.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\Review.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Models\\Review.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\Review.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Models\\Review.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Models\\Review.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -716,11 +732,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "RelativeToolTip": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -728,11 +744,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "RelativeToolTip": "EcoLoop\\Areas\\Identity\\Pages\\_ViewStart.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -740,11 +756,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "RelativeToolTip": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -752,11 +768,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "_ValidationScriptsPartial.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml.cs",
               "RelativeToolTip": "EcoLoop\\Areas\\Identity\\Pages\\Account\\_ValidationScriptsPartial.cshtml.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -764,11 +780,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "RelativeToolTip": "EcoLoop\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
               "ViewState": "AgIAACMAAAAAAAAAAAAAwFQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -776,11 +792,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "EcoLoop.csproj",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\EcoLoop.csproj",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\EcoLoop.csproj",
               "RelativeDocumentMoniker": "EcoLoop\\EcoLoop.csproj",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\EcoLoop.csproj",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\EcoLoop.csproj",
               "RelativeToolTip": "EcoLoop\\EcoLoop.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -788,11 +804,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "AdminController.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\AdminController.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\AdminController.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Controllers\\AdminController.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\AdminController.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Controllers\\AdminController.cs",
               "RelativeToolTip": "EcoLoop\\Controllers\\AdminController.cs",
               "ViewState": "AgIAAB0AAAAAAAAAAAAYwDsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -800,11 +816,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "profile.css",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\profile.css",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\profile.css",
               "RelativeDocumentMoniker": "EcoLoop\\wwwroot\\css\\profile.css",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\profile.css",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\profile.css",
               "RelativeToolTip": "EcoLoop\\wwwroot\\css\\profile.css",
               "ViewState": "AgIAABkAAAAAAAAAAAAYwDgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -812,11 +828,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 57,
+              "DocumentIndex": 58,
               "Title": "20251126175427_AddApplicationUserAndIdentity.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251126175427_AddApplicationUserAndIdentity.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251126175427_AddApplicationUserAndIdentity.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Migrations\\20251126175427_AddApplicationUserAndIdentity.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251126175427_AddApplicationUserAndIdentity.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251126175427_AddApplicationUserAndIdentity.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Migrations\\20251126175427_AddApplicationUserAndIdentity.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -824,11 +840,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 58,
+              "DocumentIndex": 59,
               "Title": "20251126173541_AddUserProfileFields.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251126173541_AddUserProfileFields.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251126173541_AddUserProfileFields.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Migrations\\20251126173541_AddUserProfileFields.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251126173541_AddUserProfileFields.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251126173541_AddUserProfileFields.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Migrations\\20251126173541_AddUserProfileFields.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -836,11 +852,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "map.css",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\map.css",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\map.css",
               "RelativeDocumentMoniker": "EcoLoop\\wwwroot\\css\\map.css",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\map.css",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\map.css",
               "RelativeToolTip": "EcoLoop\\wwwroot\\css\\map.css",
               "ViewState": "AgIAABcAAAAAAAAAAAAmwCYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -848,11 +864,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "MapStoreViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\MapStoreViewModel.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\MapStoreViewModel.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Models\\MapStoreViewModel.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\MapStoreViewModel.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\MapStoreViewModel.cs",
               "RelativeToolTip": "EcoLoop\\Models\\MapStoreViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -860,11 +876,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "HomeViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\HomeViewModel.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\HomeViewModel.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Models\\HomeViewModel.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\HomeViewModel.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\HomeViewModel.cs",
               "RelativeToolTip": "EcoLoop\\Models\\HomeViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -872,11 +888,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 48,
               "Title": "site.css",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "EcoLoop\\wwwroot\\css\\site.css",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\site.css",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\css\\site.css",
               "RelativeToolTip": "EcoLoop\\wwwroot\\css\\site.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -884,11 +900,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 53,
+              "DocumentIndex": 54,
               "Title": "20251125181314_edit.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125181314_edit.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125181314_edit.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Migrations\\20251125181314_edit.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125181314_edit.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125181314_edit.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Migrations\\20251125181314_edit.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -896,11 +912,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 54,
+              "DocumentIndex": 55,
               "Title": "20251125182427_AddOpeningHoursToStore.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125182427_AddOpeningHoursToStore.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125182427_AddOpeningHoursToStore.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Migrations\\20251125182427_AddOpeningHoursToStore.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125182427_AddOpeningHoursToStore.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125182427_AddOpeningHoursToStore.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Migrations\\20251125182427_AddOpeningHoursToStore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -908,11 +924,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 55,
+              "DocumentIndex": 56,
               "Title": "20251125182510_UpdateSeedWithOpeningHours.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125182510_UpdateSeedWithOpeningHours.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125182510_UpdateSeedWithOpeningHours.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Migrations\\20251125182510_UpdateSeedWithOpeningHours.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125182510_UpdateSeedWithOpeningHours.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125182510_UpdateSeedWithOpeningHours.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Migrations\\20251125182510_UpdateSeedWithOpeningHours.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -920,23 +936,23 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 49,
+              "DocumentIndex": 50,
               "Title": "logo-eco.svg",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\logo-eco.svg",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\logo-eco.svg",
               "RelativeDocumentMoniker": "EcoLoop\\wwwroot\\images\\logo-eco.svg",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\logo-eco.svg",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\wwwroot\\images\\logo-eco.svg",
               "RelativeToolTip": "EcoLoop\\wwwroot\\images\\logo-eco.svg",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
-              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQESURBVDhPrZRdbJNVHMZ/b/u26xfUbqPYbd2wIKxsbGDYpk6joISJCuIHRkyMVxpDNBpjQjDRZFfeaFiI3ojGS00MshgvIEQkYyTAnJMs4yPb2Nqt27p17d5\u002B0L7v23O8WDc28JIneXK\u002B/ufJ\u002BZ/znD88SEgplXvnurq6jjc2Nn5UWkdKuRQLgBCCfD5PNpvtPnr06JFoNBpbrXAPurq6hoQQolgs/i9N0xQDAwOir69PnDhx4tdwOLxl5X7rygFAR0fHkba2tkohwdRTiNw1lMwP6DM/Y0z9AcDwhMHOljacTmfIbrfXTE5OXkskEon7BO2tbyr1za1HbuTKKm9N9rLW/A7nzPeYsbOgbEHIIGb8EtFZqNvcis/nU10u16by8vLg9evXL6bT6fSioKLgfmy/r/bF975cE6h9viVss\u002B9efxzv9BkGRrfzm/YxI2WH2da8DzE7RMZwc7F/jP7\u002BfjRNs/p8vvCFCxd\u002BSaVSMRXA0bjXW3fgw8\u002Be21nz/mvbRlw7xeckbubozR7jVugVorqTSyPTZI0xXvc3UN\u002B8kRr86LqOx\u002BNhcHBwOUsLgL/jg/a28Lq3DzVcXtuS\u002B1RZGMgzqXSSW3cQWxbchknthiquzhbpST6CsqaWysoKAoEAXq8Xq9W67AILQF3Ac/Dl\u002BqGKJuMbZa7PwNX0E9seP8ihHQHeaqokMzWLz16G4nbSl7Axl7eUziNhhbUAVICt61JPP\u002BH90ZkZdfCt8QUTf9kwzH8RUiIR5IsqFaoFm93G6GyBZFqnaq0DKQHlrkcB1KqAan\u002B36UyNLTKinLd8Jd0te5SQtLAYTUlUYtzR0XWDgmliSllalsh7PoBl4kbtgc3i97IrmcNyqGJv8cqlm1KOjiNGxigO36Y4fBsxfBslOk51YZ5ngx78HntJbPUvAlClFntjZry6cL64CyMrVbfTZmkPVSo7qt14HSpa3uDyWJJIMgdSEvS58DjUpQQW73EF1PxEvj2ZLfuzd1rdWqum6taHqpWzUznO3ppB6gaqXaXoqSBZdDEfn\u002BcFi4LNcrcELKW8BIu5oDj3HSscjk3PfX1zaDQxPpWWunsN1G5A2fQoheo64lIhHk8Qcpi81Lgeu3Xple\u002BH9dg7\u002BJ95OBm62nujpy5gMzIpo17LCPdEfIHEXIo7iXls6QUaHlL5ZNdGyt12UJRlyyiKQiQS4fTp0yc1TYtZN1RxOTbN7rB95pnqeM9goKbZtefJp\u002Br9tiJbvCqtVW72N/h5dXsVDpu6eIySXQAUi4VIJEp3d/dJTdPuL2WdnZ09QghhGEaJujD0RerLLCy3hmGIc\u002BfOiWAw2MKSsVdCSvn3qVOn2kt9pJQIIVYV2pUE0DTtH2B\u002BtdIDwn\u002B7nChdLXVvTAAAAABJRU5ErkJggg==",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAQKSURBVDhPrVRbTCNVGP5OOzO9TKEWSrGUttpdpV2ua7ioaDa7ullcdVe8rHFNjPFBY4hGY0wIJprw5ItmCdEXL/FRE4MQsw9LiCthIcFFxA3hFiEsLQUKpaW03XZmOuOZaQsY9W2/5J/zz3/55j///OfgrkJRFFJQD9DX13elrq7uXVWnfk2KugpZlpHJZJBKpYa6u7u7gsFgWHP8HyjhHE2Sc7ncf4okSfLMzIw8NTUl9/f3/xgIBGoKqRr0hfUAHR0dXW1tbXaZFiQJccjpWyDJbyBsfQ9x46oW81dIRHNLG0wmk4/juOr19fVbUQrV9w9CrvVl4m9s7VpIG\u002BxL6\u002BMolb6EaesrSOFhgNRAVtyQIhMIbgPeB1ths9kYs9l8vKyszD0/P39jnyJPSAj4hy7YPE\u002B/\u002BUmJ0/NkS4DlzlRegXXzGmZWmvBT4j0sGy6jvvE85O05JEUeN6ZXMT09jUQioafEgdHR0R/i8XiYUfmMdees3ovvfPhEc/VbL9Qvm5vljxBdTGM81YMl33MICiZMLG8iJa7iRUct/I3HUA0HBEGAxWLB7OysVpcKnfpwdLzd3haoePVS7WRpS/oDsjeTwTrpRbqiE2wK4EUJnvuqcHM7h7HY/SAlHtjt5XA6nbBardDr9QdToBF6nZbOZ/1z5Q3i52RnSoS54TvUP9yJSyedeKXBjuTGNmycAYQ3YSrKYiejpVFQkiOjpULb8omK\u002BOOPWL81JVeM\u002BEL8GKFfWYjSn/Qn0GDQucsxKGd0YDkWK9tZxPYFVJUaVS7a/8MZVcFUORnu9YZr1ezaMrmu\u002B1ThW84Sn0IrKATlSRWIdwTaMxFZSYKk2jS36skTFkmZ0ILnYmzlZ8Nk8g1lzn0u99vEor6p0kwUeiLUIJVQTSR0MF202ka3BQ4Lp9nydHnCIhglEX5p67Yrez13GmJKYXgTq2v32clJFw\u002BrkUEiI2JyNYa1WFrNhNtmhoXaDzkOyVQwmVCmPZYy/DK\u002ByZzwMHFvpc9FhjfSGF7agkK3yHAMcpZyxHJm7EZ28ZSOgKVShFb/kQp10h4xne/JXg5v7ny2OLcSvb2xrwh8CeicgBx/AFmXFxF6h0QiUfiMEp6pqwSnL/7lf0Pf8xocp\u002B6N\u002BW6OL4x5nayYjIv\u002BRFLmQ5E9RHfiuBPdBbu/h9p7GLx/\u002BhjKeNo/erK02mhlhOpra2sYHBz8mp6asJ7O62R4E2cC3NYpV2Rs1lndaD776GN\u002BB5tDjZVBaxWPC7UOPN9UBSOrTVl\u002Bn4VdE52OEgYxNDSkEeatR9Db2zumXl\u002BiKBZEkEUhL/SoFSR7sKoxIyMjstvtblHzC588BG3w7wMDA\u002B0FXRP1Ui02vmgrigpa2R902dVe7i6AvwHcTSP/8z9AyQAAAABJRU5ErkJggg==",
               "WhenOpened": "2025-11-25T10:14:53.585Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 48,
+              "DocumentIndex": 49,
               "Title": "ApplicationDbContextModelSnapshot.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Migrations\\ApplicationDbContextModelSnapshot.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -944,11 +960,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 56,
+              "DocumentIndex": 57,
               "Title": "20251125172646_MakeImageUrlNullable.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125172646_MakeImageUrlNullable.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125172646_MakeImageUrlNullable.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Migrations\\20251125172646_MakeImageUrlNullable.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125172646_MakeImageUrlNullable.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125172646_MakeImageUrlNullable.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Migrations\\20251125172646_MakeImageUrlNullable.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -956,11 +972,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 52,
+              "DocumentIndex": 53,
               "Title": "20251125095129_AddImageUrlToStore.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125095129_AddImageUrlToStore.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125095129_AddImageUrlToStore.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Migrations\\20251125095129_AddImageUrlToStore.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125095129_AddImageUrlToStore.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125095129_AddImageUrlToStore.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Migrations\\20251125095129_AddImageUrlToStore.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -968,11 +984,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 50,
+              "DocumentIndex": 51,
               "Title": "StoreCardViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\StoreCardViewModel.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\StoreCardViewModel.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Models\\StoreCardViewModel.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Models\\StoreCardViewModel.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Models\\StoreCardViewModel.cs",
               "RelativeToolTip": "EcoLoop\\Models\\StoreCardViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -980,11 +996,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 51,
+              "DocumentIndex": 52,
               "Title": "20251125093010_InitialCreate.cs",
-              "DocumentMoniker": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125093010_InitialCreate.cs",
+              "DocumentMoniker": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125093010_InitialCreate.cs",
               "RelativeDocumentMoniker": "EcoLoop\\Data\\Migrations\\20251125093010_InitialCreate.cs",
-              "ToolTip": "C:\\Users\\XII class\\source\\repos\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125093010_InitialCreate.cs",
+              "ToolTip": "D:\\2025-2026\\EcoLoop\\EcoLoop\\Data\\Migrations\\20251125093010_InitialCreate.cs",
               "RelativeToolTip": "EcoLoop\\Data\\Migrations\\20251125093010_InitialCreate.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
