@@ -1,0 +1,70 @@
+﻿@model EcoLoop.Data.Models.Store
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Редакция на магазин";
+}
+
+<h2 class="mb-3">✏️ Редакция на магазин</h2>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="mb-3">
+        <label asp-for="Name" class="form-label">Име</label>
+        <input asp-for="Name" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Category" class="form-label">Категория</label>
+        <input asp-for="Category" class="form-control" />
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Description" class="form-label">Описание</label>
+        <textarea asp-for="Description" class="form-control" rows="3"></textarea>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="Address" class="form-label">Адрес</label>
+        <input asp-for="Address" class="form-control" />
+    </div>
+
+    <div class="row mb-3">
+        <div class="col">
+            <label asp-for="Latitude" class="form-label">Ширина</label>
+            <input asp-for="Latitude" class="form-control" />
+        </div>
+        <div class="col">
+            <label asp-for="Longitude" class="form-label">Дължина</label>
+            <input asp-for="Longitude" class="form-control" />
+        </div>
+    </div>
+
+    <div class="mb-3">
+        <label asp-for="OpeningHours" class="form-label">Работно време (напр. 09:00-19:00)</label>
+        <input asp-for="OpeningHours" class="form-control" />
+    </div>
+
+    <div class="row mb-3">
+        <div class="col form-check">
+            <input asp-for="AcceptsOwnPackaging" class="form-check-input" />
+            <label asp-for="AcceptsOwnPackaging" class="form-check-label">Приема собствени опаковки</label>
+        </div>
+        <div class="col form-check">
+            <input asp-for="Delivery" class="form-check-input" />
+            <label asp-for="Delivery" class="form-check-label">Предлага доставка</label>
+        </div>
+        <div class="col form-check">
+            <input asp-for="IsProducer" class="form-check-input" />
+            <label asp-for="IsProducer" class="form-check-label">Производител</label>
+        </div>
+    </div>
+
+    <div class="mb-3 form-check">
+        <input asp-for="IsApproved" class="form-check-input" />
+        <label asp-for="IsApproved" class="form-check-label">Одобрен</label>
+    </div>
+
+    <button type="submit" class="btn btn-success">💾 Запази</button>
+    <a href="/Admin/AdminStores" class="btn btn-secondary ms-2">Назад</a>
+</form>

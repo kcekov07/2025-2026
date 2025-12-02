@@ -1,0 +1,67 @@
+﻿@model IEnumerable<EcoLoop.Data.Models.Store>
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Магазини";
+}
+
+<h2 class="mb-4">🛍️ Всички магазини</h2>
+
+<table class="table table-bordered table-striped shadow-sm align-middle">
+    <thead class="table-success">
+        <tr>
+            <th>ID</th>
+            <th>Име</th>
+            <th>Категория</th>
+            <th>Статус</th>
+            <th>Дата</th>
+            <th style="width:260px;">Действия</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var s in Model)
+        {
+            <tr>
+                <td>@s.Id</td>
+                <td>@s.Name</td>
+                <td>@s.Category</td>
+                <td>
+                    @if (s.IsApproved)
+                    {
+                        <span class="badge bg-success">Одобрен</span>
+                    }
+                    else
+                    {
+                        <span class="badge bg-warning text-dark">Чака одобрение</span>
+                    }
+                </td>
+                <td>@s.CreatedAt.ToShortDateString()</td>
+                <td>
+                    @if (!s.IsApproved)
+                    {
+                        <a href="/Admin/AdminStores/Approve/@s.Id"
+                           class="btn btn-sm btn-success me-1">
+                            ✔ Одобри
+                        </a>
+
+                        <a href="/Admin/AdminStores/Reject/@s.Id"
+                           class="btn btn-sm btn-outline-danger me-1"
+                           onclick="return confirm('Сигурни ли сте, че искате да откажете този магазин?');">
+                            ✖ Откажи
+                        </a>
+                    }
+
+                    <a href="/Admin/AdminStores/Edit/@s.Id"
+                       class="btn btn-sm btn-primary me-1">
+                        ✏ Редакция
+                    </a>
+
+                    <a href="/Admin/AdminStores/Delete/@s.Id"
+                       class="btn btn-sm btn-danger"
+                       onclick="return confirm('Наистина ли да изтрием магазина?');">
+                        🗑 Изтрий
+                    </a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,77 @@
+﻿@model IEnumerable<EcoLoop.Models.AdminUserListViewModel>
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Потребители";
+}
+
+<h2 class="mb-3">👥 Управление на потребители</h2>
+
+<div class="card p-3 shadow-sm">
+
+    <table class="table table-hover align-middle">
+        <thead class="table-light">
+            <tr>
+                <th>Име</th>
+                <th>Имейл</th>
+                <th>Роля</th>
+                <th>Статус</th>
+                <th>Действия</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var u in Model)
+            {
+                <tr>
+                    <td>@u.UserName</td>
+                    <td>@u.Email</td>
+                    <td><span class="badge bg-success">@u.Role</span></td>
+
+                    <td>
+                        @if (u.IsBlocked)
+                        {
+                            <span class="badge bg-danger">Блокиран</span>
+                        }
+                        else
+                        {
+                            <span class="badge bg-primary">Активен</span>
+                        }
+                    </td>
+
+                    <td>
+
+                        <!-- EDIT -->
+                        <a class="btn btn-sm btn-warning me-1"
+                           href="/Admin/AdminUsers/Edit/@u.UserId">
+                            ✏️ Редакция
+                        </a>
+
+                        <!-- BLOCK / UNBLOCK -->
+                        @if (u.IsBlocked)
+                        {
+                            <form method="post" action="/Admin/AdminUsers/Unblock/@u.UserId" class="d-inline">
+                                <button class="btn btn-sm btn-success">🔓 Разблокирай</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <form method="post" action="/Admin/AdminUsers/Block/@u.UserId" class="d-inline">
+                                <button class="btn btn-sm btn-danger">🔒 Блокирай</button>
+                            </form>
+                        }
+
+                        <!-- DELETE -->
+                        <form method="post" action="/Admin/AdminUsers/Delete/@u.UserId"
+                              onsubmit="return confirm('Сигурен ли си?');"
+                              class="d-inline">
+                            <button class="btn btn-sm btn-outline-dark">🗑 Изтриване</button>
+                        </form>
+
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
