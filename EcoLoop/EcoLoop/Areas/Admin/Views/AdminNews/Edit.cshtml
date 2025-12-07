@@ -1,0 +1,44 @@
+﻿@model EcoLoop.Data.Models.News
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Редакция на новина";
+}
+
+<h2 class="mb-4">✏️ Редакция на новина</h2>
+
+<div class="card p-4 shadow-sm">
+    <form method="post">
+
+        <input type="hidden" asp-for="Id" />
+
+        <div class="mb-3">
+            <label class="form-label">Заглавие</label>
+            <input asp-for="Title" class="form-control" required />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Кратко описание</label>
+            <textarea asp-for="Summary" class="form-control" rows="2"></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Съдържание</label>
+            <textarea asp-for="Content" class="form-control" rows="6" required></textarea>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Категория</label>
+            <input asp-for="Category" class="form-control" />
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label">Изображение (URL)</label>
+            <input asp-for="ImageUrl" class="form-control" />
+        </div>
+
+        <button class="btn btn-success">💾 Запази</button>
+        <a href="/Admin/AdminNews" class="btn btn-secondary ms-2">Назад</a>
+
+    </form>
+</div>

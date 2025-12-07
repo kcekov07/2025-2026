@@ -1,0 +1,64 @@
+﻿@model IEnumerable<EcoLoop.Data.Models.News>
+
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+    ViewData["Title"] = "Новини";
+}
+
+<h2 class="mb-4">📰 Управление на новини</h2>
+
+<p class="text-muted">
+    Общо новини в базата: <strong>@(ViewBag.NewsCount ?? 0)</strong>
+</p>
+
+<div class="mb-3">
+    <a href="/Admin/AdminNews/Add" class="btn btn-success">
+        ➕ Добави новина
+    </a>
+</div>
+
+@if (!Model.Any())
+{
+    <div class="alert alert-info">
+        Все още няма добавени новини.
+    </div>
+}
+else
+{
+    <table class="table table-hover table-bordered align-middle">
+        <thead class="table-light">
+            <tr>
+                <th>Заглавие</th>
+                <th>Категория</th>
+                <th>Дата</th>
+                <th style="width:160px;">Действия</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var n in Model)
+            {
+                <tr>
+                    <td>@n.Title</td>
+                    <td>@n.Category</td>
+                    <td>@n.CreatedAt.ToString("dd.MM.yyyy")</td>
+                    <td>
+                        <a href="/Admin/AdminNews/Edit/@n.Id"
+                           class="btn btn-warning btn-sm">✏️</a>
+
+                        <form method="post"
+                              asp-area="Admin"
+                              asp-controller="AdminNews"
+                              asp-action="Delete"
+                              asp-route-id="@n.Id"
+                              style="display:inline;"
+                              onsubmit="return confirm('Сигурни ли сте, че искате да изтриете тази новина?');">
+
+                            @Html.AntiForgeryToken()
+                            <button class="btn btn-danger btn-sm">🗑️</button>
+                        </form>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}

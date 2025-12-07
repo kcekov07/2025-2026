@@ -4,19 +4,16 @@ using EcoLoop.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
-using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace EcoLoop.Data.Migrations
+namespace EcoLoop.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251126173541_AddUserProfileFields")]
-    partial class AddUserProfileFields
+    partial class ApplicationDbContextModelSnapshot : ModelSnapshot
     {
-        /// <inheritdoc />
-        protected override void BuildTargetModel(ModelBuilder modelBuilder)
+        protected override void BuildModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -32,6 +29,9 @@ namespace EcoLoop.Data.Migrations
 
                     b.Property<int>("AccessFailedCount")
                         .HasColumnType("int");
+
+                    b.Property<string>("Bio")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("ConcurrencyStamp")
                         .IsConcurrencyToken()
@@ -77,8 +77,11 @@ namespace EcoLoop.Data.Migrations
                     b.Property<bool>("PhoneNumberConfirmed")
                         .HasColumnType("bit");
 
-                    b.Property<string>("ProfileImageUrl")
+                    b.Property<string>("ProducerLevel")
                         .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("ProfileImageUrl")
                         .HasColumnType("nvarchar(max)");
 
                     b.Property<string>("SecurityStamp")
@@ -112,6 +115,42 @@ namespace EcoLoop.Data.Migrations
                         .HasFilter("[NormalizedUserName] IS NOT NULL");
 
                     b.ToTable("AspNetUsers", (string)null);
+                });
+
+            modelBuilder.Entity("EcoLoop.Data.Models.News", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
+
+                    b.Property<string>("Category")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Content")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<DateTime>("CreatedAt")
+                        .HasColumnType("datetime2");
+
+                    b.Property<string>("ImageUrl")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Summary")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.Property<string>("Title")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("News");
                 });
 
             modelBuilder.Entity("EcoLoop.Data.Models.Review", b =>
@@ -179,6 +218,11 @@ namespace EcoLoop.Data.Migrations
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<bool>("IsApproved")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("bit")
+                        .HasDefaultValue(false);
+
                     b.Property<bool>("IsProducer")
                         .HasColumnType("bit");
 
@@ -198,40 +242,6 @@ namespace EcoLoop.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Stores");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            AcceptsOwnPackaging = true,
-                            Address = "София",
-                            Category = "Еко храни",
-                            CreatedAt = new DateTime(2025, 11, 26, 17, 35, 40, 234, DateTimeKind.Utc).AddTicks(4672),
-                            Delivery = false,
-                            Description = "Био магазин",
-                            ImageUrl = "/images/sample/bio.jpg",
-                            IsProducer = false,
-                            Latitude = 42.697699999999998,
-                            Longitude = 23.321899999999999,
-                            Name = "Bio Market",
-                            OpeningHours = "09:00-18:00"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            AcceptsOwnPackaging = false,
-                            Address = "Пловдив",
-                            Category = "Натурална козметика",
-                            CreatedAt = new DateTime(2025, 11, 26, 17, 35, 40, 234, DateTimeKind.Utc).AddTicks(4686),
-                            Delivery = false,
-                            Description = "Естествена козметика",
-                            ImageUrl = "/images/sample/cosmetics.jpg",
-                            IsProducer = false,
-                            Latitude = 42.1479,
-                            Longitude = 24.75,
-                            Name = "Green Cosmetics",
-                            OpeningHours = "09:00-19:00"
-                        });
                 });
 
             modelBuilder.Entity("EcoLoop.Data.Models.StoreImage", b =>

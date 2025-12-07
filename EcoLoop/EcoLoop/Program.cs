@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
+
 namespace EcoLoop
 {
     public class Program
@@ -25,7 +26,7 @@ namespace EcoLoop
                 {
                     options.SignIn.RequireConfirmedAccount = false;
                 })
-                .AddRoles<IdentityRole>()
+                 .AddRoles<IdentityRole>()
                 .AddEntityFrameworkStores<ApplicationDbContext>();
 
             builder.Services.AddControllersWithViews();
@@ -100,6 +101,11 @@ namespace EcoLoop
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}"
             );
+            app.MapControllerRoute(
+    name: "admin",
+    pattern: "Admin/{controller=AdminHome}/{action=Index}/{id?}",
+    defaults: new { area = "Admin" }
+);
 
 
             app.MapRazorPages();

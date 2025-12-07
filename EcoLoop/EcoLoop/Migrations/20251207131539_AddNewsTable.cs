@@ -2,10 +2,10 @@
 
 #nullable disable
 
-namespace EcoLoop.Data.Migrations
+namespace EcoLoop.Migrations
 {
     /// <inheritdoc />
-    public partial class AddMigrationCreateone : Migration
+    public partial class AddNewsTable : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)

@@ -11,11 +11,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" />
-
-    <!-- Bootstrap Icons -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
 
-    <!-- Site CSS -->
     <link rel="stylesheet" href="~/css/site.css" />
     <link rel="stylesheet" href="~/css/profile.css" />
     <link rel="stylesheet" href="~/EcoLoop.styles.css" asp-append-version="true" />
@@ -50,7 +47,7 @@
                     <li class="nav-item"><a class="nav-link" href="/Store">🛍️ Магазини</a></li>
                 </ul>
 
-                <!-- SEARCH BAR -->
+                <!-- SEARCH -->
                 <div class="position-relative me-3" style="width: 250px;">
                     <form method="get" action="/Store/Search"
                           class="d-flex align-items-center nav-search px-3 py-1 shadow-sm">
@@ -59,19 +56,16 @@
                                placeholder="Търси..." autocomplete="off" id="navbarSearchInput">
                     </form>
 
-                    <!-- AUTOCOMPLETE -->
                     <div id="navbarSearchDropdown"
                          class="dropdown-menu w-100 shadow-sm mt-1"
                          style="display:none; max-height:250px; overflow-y:auto;">
                     </div>
                 </div>
 
-                <!-- RIGHT SIDE (AUTH) -->
+                <!-- AUTH -->
                 <ul class="navbar-nav">
-
                     @if (User.Identity.IsAuthenticated)
                     {
-                        <!-- PROFILE DROPDOWN -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle fw-bold" href="#" id="profileDropdown"
                                role="button" data-bs-toggle="dropdown">
@@ -79,56 +73,47 @@
                             </a>
 
                             <ul class="dropdown-menu dropdown-menu-end">
-
                                 <li>
-                                    <a class="dropdown-item" href="/Profile/Index">
-                                        📄 Моят профил
-                                    </a>
+                                    <a class="dropdown-item" href="/Profile/Index">📄 Моят профил</a>
+                                </li>
+                                <li>
+                                    <a class="dropdown-item" href="/Profile/Edit">✏️ Редактирай профил</a>
                                 </li>
 
-                                <li>
-                                    <a class="dropdown-item" href="/Profile/Edit">
-                                        ✏️ Редактирай профил
-                                    </a>
-                                </li>
-
-                                @if (User.IsInRole("Admin"))
+                                @if (User.HasClaim("UserRole", "Admin"))
                                 {
-                                    <li><hr class="dropdown-divider"></li>
+                                    <li><hr class="dropdown-divider" /></li>
                                     <li>
-                                        <a class="dropdown-item text-danger fw-bold" href="/Admin/AdminHome">
-                                            🛠 Admin Panel
-                                        </a>
+                                        <a class="dropdown-item text-danger fw-bold" href="/Admin/AdminHome">🛠 Admin Panel</a>
                                     </li>
                                 }
 
                                 <li><hr class="dropdown-divider" /></li>
 
-                                <!-- LOGOUT -->
-                                <li>
-                                    <form method="post" asp-area="Identity" asp-page="/Account/Logout">
-                                        <button class="dropdown-item">🚪 Изход</button>
-                                    </form>
-                                </li>
+                               <li>
+    <a class="dropdown-item" href="javascript:void(0);" onclick="document.getElementById('logoutForm').submit();">
+        🚪 Изход
+    </a>
+
+    <form id="logoutForm" method="post" asp-area="Identity" asp-page="/Account/Logout" style="display:none;">
+        @Html.AntiForgeryToken()
+    </form>
+</li>
 
                             </ul>
                         </li>
                     }
                     else
                     {
-                        <!-- Login -->
                         <li class="nav-item">
                             <a class="nav-link fw-bold" href="/Identity/Account/Login">Вход</a>
                         </li>
-
-                        <!-- Register -->
                         <li class="nav-item">
                             <a class="btn btn-success ms-2 fw-bold" href="/Identity/Account/Register">
                                 Регистрация
                             </a>
                         </li>
                     }
-
                 </ul>
 
             </div>
@@ -136,43 +121,29 @@
     </nav>
 
 
-    <!-- PAGE CONTENT -->
+    <!-- CONTENT -->
     <div class="container pt-4">
         <main role="main" class="pb-3">
             @RenderBody()
         </main>
     </div>
 
-
     <!-- FOOTER -->
     <footer class="border-top py-4 mt-5">
         <div class="container text-center">
-
             <p class="mb-2">© 2025 EcoLoop</p>
 
             <div class="footer-links">
-
-                <a href="/Home/Privacy" class="mx-2">
-                    <i class="bi bi-shield-check me-1"></i> Политика за поверителност
-                </a>
-
-                <a href="/Home/About" class="mx-2">
-                    <i class="bi bi-info-circle me-1"></i> За нас
-                </a>
-
-                <a href="/Home/Contact" class="mx-2">
-                    <i class="bi bi-envelope me-1"></i> Контакти
-                </a>
-
+                <a href="/Home/Privacy" class="mx-2"><i class="bi bi-shield-check me-1"></i> Политика за поверителност</a>
+                <a href="/Home/About" class="mx-2"><i class="bi bi-info-circle me-1"></i> За нас</a>
+                <a href="/Home/Contact" class="mx-2"><i class="bi bi-envelope me-1"></i> Контакти</a>
             </div>
-
         </div>
     </footer>
 
-    <!-- Bootstrap JS -->
+    <!-- JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 
-    <!-- AUTOCOMPLETE JS -->
     <script>
         const input = document.getElementById("navbarSearchInput");
         const dropdown = document.getElementById("navbarSearchDropdown");
@@ -186,13 +157,13 @@
             }
 
             dropdown.innerHTML = `
-                <a class="dropdown-item" href="/Store/Search?q=${text}">
-                    Търси "${text}"
-                </a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Bio Market — София</a>
-                <a class="dropdown-item" href="#">Green Shop — Пловдив</a>
-            `;
+                        <a class="dropdown-item" href="/Store/Search?q=${text}">
+                            Търси "${text}"
+                        </a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Bio Market — София</a>
+                        <a class="dropdown-item" href="#">Green Shop — Пловдив</a>
+                    `;
 
             dropdown.style.display = "block";
         });
@@ -203,6 +174,5 @@
     </script>
 
     @RenderSection("Scripts", required: false)
-
 </body>
 </html>

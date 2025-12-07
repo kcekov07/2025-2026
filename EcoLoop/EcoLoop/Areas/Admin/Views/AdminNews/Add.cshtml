@@ -1,0 +1,49 @@
+﻿@model EcoLoop.Data.Models.News
+@{
+    Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
+}
+
+<h2 class="mb-4">Добавяне на новина</h2>
+
+<form asp-area="Admin" asp-controller="AdminNews" asp-action="Add" method="post">
+    @Html.AntiForgeryToken()
+
+    <div class="mb-3">
+        <label>Заглавие</label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label>Резюме</label>
+        <input asp-for="Summary" class="form-control" />
+        <span asp-validation-for="Summary" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label>Съдържание</label>
+        <textarea asp-for="Content" class="form-control"></textarea>
+        <span asp-validation-for="Content" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label>Категория</label>
+        <select asp-for="Category" class="form-select">
+            <option value="">-- Изберете --</option>
+            <option value="Еко бизнес">Еко бизнес</option>
+            <option value="Общество">Общество</option>
+            <option value="Съвети">Съвети</option>
+            <option value="Законодателство">Законодателство</option>
+            <option value="Локални">Локални</option>
+        </select>
+        <span asp-validation-for="Category" class="text-danger"></span>
+    </div>
+
+    <div class="mb-3">
+        <label>URL на изображение</label>
+        <input asp-for="ImageUrl" class="form-control" />
+        <span asp-validation-for="ImageUrl" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Запази</button>
+</form>

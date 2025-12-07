@@ -15,6 +15,8 @@ namespace EcoLoop.Data
         public DbSet<Store> Stores { get; set; }
         public DbSet<StoreImage> StoreImages { get; set; }
         public DbSet<Review> Reviews { get; set; }
+        public DbSet<News> News { get; set; }
+
 
         // (по-късно ще добавим News, Events, Notifications и т.н.)
 
