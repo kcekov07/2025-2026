@@ -101,11 +101,8 @@ namespace EcoLoop
                 name: "default",
                 pattern: "{controller=Home}/{action=Index}/{id?}"
             );
-            app.MapControllerRoute(
-    name: "admin",
-    pattern: "Admin/{controller=AdminHome}/{action=Index}/{id?}",
-    defaults: new { area = "Admin" }
-);
+            
+
 
 
             app.MapRazorPages();

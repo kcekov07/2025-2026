@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace EcoLoop.Migrations
 {
     [DbContext(typeof(ApplicationDbContext))]
-    [Migration("20251207110219_IntialCreate")]
-    partial class IntialCreate
+    [Migration("20251209065338_Initial")]
+    partial class Initial
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -153,7 +153,7 @@ namespace EcoLoop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("News");
+                    b.ToTable("MyNews");
                 });
 
             modelBuilder.Entity("EcoLoop.Data.Models.Review", b =>

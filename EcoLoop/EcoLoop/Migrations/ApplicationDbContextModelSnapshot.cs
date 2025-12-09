@@ -150,7 +150,7 @@ namespace EcoLoop.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("News");
+                    b.ToTable("MyNews");
                 });
 
             modelBuilder.Entity("EcoLoop.Data.Models.Review", b =>

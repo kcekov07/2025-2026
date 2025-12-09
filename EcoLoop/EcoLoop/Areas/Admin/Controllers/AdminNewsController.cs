@@ -1,7 +1,9 @@
 ﻿using EcoLoop.Data;
 using EcoLoop.Data.Models;
+using EcoLoop.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.CodeAnalysis.Options;
 using Microsoft.EntityFrameworkCore;
 
 namespace EcoLoop.Areas.Admin.Controllers
@@ -20,7 +22,7 @@ namespace EcoLoop.Areas.Admin.Controllers
         // LIST
         public async Task<IActionResult> Index()
         {
-            var news = await _context.News
+            var news = await _context.MyNews
                 .OrderByDescending(n => n.CreatedAt)
                 .ToListAsync();
 
@@ -31,22 +33,28 @@ namespace EcoLoop.Areas.Admin.Controllers
         [HttpGet]
         public IActionResult Add()
         {
-            return View(new News());
+            return View(new NewsViewModel());
         }
 
         // POST: ADD
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Add(News model)
+        public async Task<IActionResult> Add(NewsViewModel model)
         {
-            if (!ModelState.IsValid)
+            var category = new string []{ "Еко бизнес", "Общество", "Съвети", "Законодателство", "Локални" };
+
+
+            News news = new News
             {
-                return View(model);
-            }
+                Title = model.Title,
+                Summary = model.Summary,
+                Content = model.Content,
+                ImageUrl = model.ImageUrl,
+                CreatedAt = DateTime.UtcNow,
+                Category = category[model.CategoryId],
 
-            model.CreatedAt = DateTime.UtcNow;
-
-            _context.News.Add(model);
+            };
+            _context.MyNews.Add(news);
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Index");
@@ -57,7 +65,7 @@ namespace EcoLoop.Areas.Admin.Controllers
         [HttpGet]
         public async Task<IActionResult> Edit(int id)
         {
-            var n = await _context.News.FindAsync(id);
+            var n = await _context.MyNews.FindAsync(id);
             if (n == null) return NotFound();
 
             return View(n);
@@ -73,7 +81,7 @@ namespace EcoLoop.Areas.Admin.Controllers
                 return View(model);
             }
 
-            _context.News.Update(model);
+            _context.MyNews.Update(model);
             await _context.SaveChangesAsync();
 
             return RedirectToAction("Index");
@@ -84,10 +92,10 @@ namespace EcoLoop.Areas.Admin.Controllers
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Delete(int id)
         {
-            var n = await _context.News.FindAsync(id);
+            var n = await _context.MyNews.FindAsync(id);
             if (n != null)
             {
-                _context.News.Remove(n);
+                _context.MyNews.Remove(n);
                 await _context.SaveChangesAsync();
             }
 

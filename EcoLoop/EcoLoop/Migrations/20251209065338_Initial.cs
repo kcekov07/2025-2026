@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace EcoLoop.Migrations
 {
     /// <inheritdoc />
-    public partial class IntialCreate : Migration
+    public partial class Initial : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -60,7 +60,7 @@ namespace EcoLoop.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "News",
+                name: "MyNews",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
@@ -74,7 +74,7 @@ namespace EcoLoop.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_News", x => x.Id);
+                    table.PrimaryKey("PK_MyNews", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
@@ -320,7 +320,7 @@ namespace EcoLoop.Migrations
                 name: "AspNetUserTokens");
 
             migrationBuilder.DropTable(
-                name: "News");
+                name: "MyNews");
 
             migrationBuilder.DropTable(
                 name: "Reviews");

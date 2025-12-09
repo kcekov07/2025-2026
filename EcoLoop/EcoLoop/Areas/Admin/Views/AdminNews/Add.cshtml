@@ -1,4 +1,4 @@
-﻿@model EcoLoop.Data.Models.News
+﻿@model EcoLoop.Models.NewsViewModel
 @{
     Layout = "~/Areas/Admin/Views/Shared/_AdminLayout.cshtml";
 }
@@ -28,7 +28,7 @@
 
     <div class="mb-3">
         <label>Категория</label>
-        <select asp-for="Category" class="form-select">
+        <select asp-for="CategoryId" class="form-select">
             <option value="">-- Изберете --</option>
             <option value="Еко бизнес">Еко бизнес</option>
             <option value="Общество">Общество</option>
@@ -36,7 +36,7 @@
             <option value="Законодателство">Законодателство</option>
             <option value="Локални">Локални</option>
         </select>
-        <span asp-validation-for="Category" class="text-danger"></span>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
     </div>
 
     <div class="mb-3">
@@ -45,5 +45,5 @@
         <span asp-validation-for="ImageUrl" class="text-danger"></span>
     </div>
 
-    <button type="submit" class="btn btn-success">Запази</button>
+    <input type="submit" value="Submit" class="btn btn-success">
 </form>
